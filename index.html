@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memoria Astra</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Orbitron', sans-serif;
+        background-color: #000;
+        color: #fff;
+        padding: 2rem;
+      }
+      header {
+        text-align: center;
+        margin-bottom: 4rem;
+      }
+      header h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+      }
+      header p {
+        color: #999;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+      @media (min-width: 640px) {
+        .grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+      @media (min-width: 1024px) {
+        .grid {
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+      .card {
+        background-color: #111;
+        border: 1px solid #333;
+        border-radius: 1rem;
+        overflow: hidden;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+        display: flex;
+        flex-direction: column;
+      }
+      .card img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+      }
+      .card-content {
+        padding: 1.5rem;
+      }
+      .card-content h2 {
+        font-size: 1.5rem;
+        margin: 0 0 0.5rem;
+      }
+      .card-content h3 {
+        color: #f43f5e;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 1rem;
+      }
+      .card-content p {
+        color: #ccc;
+        font-size: 0.95rem;
+        margin-bottom: 1.5rem;
+      }
+      .button {
+        color: #f43f5e;
+        text-decoration: none;
+        font-weight: bold;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        transition: color 0.2s;
+      }
+      .button:hover {
+        color: #fff;
+      }
+      footer {
+        text-align: center;
+        color: #555;
+        font-size: 0.8rem;
+        margin-top: 5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Memoria Astra</h1>
+      <p>A Science-Fantasy Epic Spanning Worlds, Stars, and Memory</p>
+    </header>
+    <section class="grid">
+      <div class="card">
+        <img src="images/terra.jpg" alt="Terra in the Mists">
+        <div class="card-content">
+          <h2>Terra in the Mists</h2>
+          <h3>The Beginning of the Cycle</h3>
+          <p>A forgotten Earth. A shrouded sky. A world reborn in memory. Discover the mist-cloaked secrets of ancient civilizations and the skyships that once ruled the heavens.</p>
+          <a class="button" href="#">Learn More →</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/before.jpg" alt="Before the Mists">
+        <div class="card-content">
+          <h2>Before the Mists</h2>
+          <h3>The Fall of Venus</h3>
+          <p>Long before Terra, the planet Venus thrived. Follow the Phorsians as they flee their dying world, unlock the secrets of sky-sailing technology, and shape the stars to come.</p>
+          <a class="button" href="#">Learn More →</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/crimson.jpg" alt="Crimson Reliquary">
+        <div class="card-content">
+          <h2>Crimson Reliquary</h2>
+          <h3>Empire Among the Ruins</h3>
+          <p>On the rust-red sands of Mars, ancient relics stir once more. The keys to galactic resurrection lie buried beneath shattered spires and blood-soaked altars.</p>
+          <a class="button" href="#">Learn More →</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/children.jpg" alt="Children of the Divide">
+        <div class="card-content">
+          <h2>Children of the Divide</h2>
+          <h3>Jupiter’s Legacy, Saturn’s Reckoning</h3>
+          <p>In the twilight of the gas giants, civilizations fracture and recombine. The children born in the shadow of the stars seek unity—or annihilation.</p>
+          <a class="button" href="#">Learn More →</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/echoes.jpg" alt="Echoes of Lyra">
+        <div class="card-content">
+          <h2>Echoes of Lyra</h2>
+          <h3>The Universe Remembers</h3>
+          <p>Across time, across death, the song of Lyra endures. As stars collapse and rebirth looms, one final harmony must be sung to awaken the next cycle.</p>
+          <a class="button" href="#">Learn More →</a>
+        </div>
+      </div>
+    </section>
+    <footer>
+      &copy; 2025 PixelPacific | Written by Alinari Campbell
+    </footer>
+  </body>
+</html>
+

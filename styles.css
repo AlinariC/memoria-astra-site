@@ -1,0 +1,182 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and General Typography */
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background: url('images/starfield.jpg') repeat-y center center fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center top;
+  color: #f0f0f0;
+  line-height: 1.6;
+  animation: parallaxMove 60s infinite linear;
+}
+
+/* Cosmic Breathing Background Animation */
+@keyframes parallaxMove {
+  0% { background-position: center top; }
+  50% { background-position: center 5%; }
+  100% { background-position: center top; }
+}
+
+/* Hero Banner */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.small-hero {
+  height: 50vh;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+/* Intro Section */
+.intro {
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.intro h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.intro p {
+  max-width: 700px;
+  margin: 0 auto 2rem auto;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+/* Book Grid */
+.book-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.book-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  padding: 1rem;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.book-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+
+.book-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.book-card p {
+  margin-bottom: 1rem;
+  color: #ccc;
+}
+
+.book-card .button {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  background-color: #8a2be2;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: background 0.3s ease;
+}
+
+.book-card .button:hover {
+  background-color: #6a1dbf;
+}
+
+.book-card:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* Cover Image for Book Pages */
+.cover-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #8a2be2;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (min-width: 600px) {
+  .book-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .book-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Fade-In Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeInUp 1s ease-out;
+}
+
+.fade-in-delay {
+  animation: fadeInUp 1.5s ease-out;
+}

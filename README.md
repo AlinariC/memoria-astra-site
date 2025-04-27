@@ -1,5 +1,7 @@
 # Memoria Astra Website
 
+[![License: PPPL v1.0](https://img.shields.io/badge/license-PPPL%20v1.0-purple.svg)](/LICENSE)
+
 Welcome to the official repository for the **Memoria Astra** website — a cosmic journey across memory, survival, and the stars.
 
 This site is built using **Jekyll**, **Markdown**, and **Liquid templates** for clean, mobile-first, professional publishing. It is deployed live via **GitHub Pages**.

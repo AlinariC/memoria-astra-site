@@ -29,6 +29,7 @@ This website is designed to be lightweight, fully responsive, and cosmic in them
 ├── children-of-the-divide.html
 ├── echoes-of-lyra.html
 ├── harmonic-rebirth.html
+├── foundations-of-flame.html
 ├── styles.css
 └── images/
     ├── starfield.jpg
@@ -38,6 +39,7 @@ This website is designed to be lightweight, fully responsive, and cosmic in them
     ├── children.jpg
     ├── echoes.jpg
     ├── harmonic.jpg
+    ├── foundations.jpg
 ```
 
 ## Live Site

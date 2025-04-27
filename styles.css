@@ -203,6 +203,7 @@ footer a:hover {
 
 .site-nav li {
   position: relative;
+  overflow: visible;
 }
 
 .site-nav a {
@@ -220,6 +221,7 @@ footer a:hover {
 /* Dropdown (parent) positioning */
 .dropdown {
   position: relative;
+  overflow: visible;
 }
 
 /* Dropdown Content */

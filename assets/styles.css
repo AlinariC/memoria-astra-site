@@ -1,0 +1,218 @@
+/* === Global Styles === */
+
+body {
+  margin: 0;
+  font-family: 'Georgia', 'Palatino', serif;
+  font-size: 1.1rem;
+  color: #e0e0e0;
+  background: url('/assets/images/starfield.jpg') center center fixed no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+a {
+  color: #d8b4ff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #bb86fc;
+}
+
+/* === Navigation Bar === */
+
+.site-nav {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 0.5rem 1rem;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.site-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 2rem;
+}
+
+.site-nav li {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.95);
+  min-width: 220px;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+  flex-direction: column;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2000;
+}
+
+.dropdown-content li {
+  padding: 0.5rem 1rem;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+  opacity: 1;
+}
+
+/* === Hero Banner === */
+
+.hero {
+  background: transparent;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.hero-content p {
+  font-size: 1.3rem;
+  color: #b0b0b0;
+}
+
+/* === Main Content === */
+
+.content {
+  padding: 2rem 1rem;
+}
+
+/* === Book Grid === */
+
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.book-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.book-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2);
+}
+
+.book-card img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.book-card h3 {
+  margin: 0.5rem 0;
+  font-size: 1.4rem;
+}
+
+.book-card p {
+  font-size: 1rem;
+  color: #cccccc;
+}
+
+/* === Book Page Layout === */
+
+.book-page {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.book-hero img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+.book-hero h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* === Buttons === */
+
+.button {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #8a2be2;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background: #a15dfc;
+}
+
+/* === Footer === */
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* === Animations === */
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease forwards;
+}
+
+/* === Author Section === */
+
+.author-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.author-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+  border: 3px solid #d8b4ff;
+}
+
+.author-bio {
+  max-width: 600px;
+}

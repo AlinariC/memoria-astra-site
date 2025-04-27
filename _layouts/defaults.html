@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="Memoria Astra - A Song Woven Across the Stars">
+  <meta property="og:description" content="Explore the Memoria Astra Cycle — a cosmic journey through memory, survival, and rebirth.">
+  <meta property="og:image" content="https://memoriaastra.com/assets/images/starfield.jpg">
+  <meta property="og:url" content="https://memoriaastra.com/">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
+  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon">
+</head>
+<body>
+  {% include nav.html %}
+
+  <main class="content">
+    {{ content }}
+  </main>
+
+  {% include footer.html %}
+</body>
+</html>

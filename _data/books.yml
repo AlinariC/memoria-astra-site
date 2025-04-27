@@ -1,0 +1,42 @@
+#
+//  books.yml
+//  
+//
+//  Created by Alinari Campbell on 4/27/25.
+//
+
+
+- title: Terra in the Mists
+  subtitle: Book One
+  image: /assets/images/terra.jpg
+  url: /books/terra-in-the-mists
+
+- title: Before the Mists
+  subtitle: Book Two
+  image: /assets/images/before.jpg
+  url: /books/before-the-mists
+
+- title: Crimson Reliquary
+  subtitle: Book Three
+  image: /assets/images/crimson.jpg
+  url: /books/crimson-reliquary
+
+- title: Children of the Divide
+  subtitle: Book Four
+  image: /assets/images/children.jpg
+  url: /books/children-of-the-divide
+
+- title: Echoes of Lyra
+  subtitle: Book Five
+  image: /assets/images/echoes.jpg
+  url: /books/echoes-of-lyra
+
+- title: Harmonic Rebirth
+  subtitle: Book Six
+  image: /assets/images/harmonic.jpg
+  url: /books/harmonic-rebirth
+
+- title: Foundations of Flame
+  subtitle: Book Seven
+  image: /assets/images/foundations.jpg
+  url: /books/foundations-of-flame

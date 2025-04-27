@@ -1,0 +1,21 @@
+#
+//  _config.yml
+//  
+//
+//  Created by Alinari Campbell on 4/27/25.
+//
+
+
+title: "Memoria Astra"
+description: "A Song Woven Across the Stars"
+url: "https://memoriaastra.com" # update if needed
+baseurl: "" # leave blank if site lives at root
+markdown: kramdown
+theme: minima
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - CNAME
+plugins: []

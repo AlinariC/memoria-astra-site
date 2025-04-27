@@ -217,6 +217,11 @@ footer a:hover {
   color: #8a2be2;
 }
 
+/* Dropdown (parent) positioning */
+.dropdown {
+  position: relative;
+}
+
 /* Dropdown Content */
 .dropdown-content {
   display: none;

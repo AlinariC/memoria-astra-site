@@ -181,6 +181,17 @@ footer a:hover {
   animation: fadeInUp 1.5s ease-out;
 }
 
+@keyframes dropdownFade {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /* Navigation Menu */
 .site-nav {
   background: rgba(0, 0, 0, 0.8);
@@ -236,6 +247,8 @@ footer a:hover {
   border-radius: 8px;
   z-index: 1000;
   flex-direction: column;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .dropdown-content li {
@@ -250,4 +263,6 @@ footer a:hover {
 
 .dropdown:hover .dropdown-content {
   display: flex;
+  opacity: 1;
+  animation: dropdownFade 0.3s ease forwards;
 }

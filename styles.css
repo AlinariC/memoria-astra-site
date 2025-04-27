@@ -180,3 +180,67 @@ footer a:hover {
 .fade-in-delay {
   animation: fadeInUp 1.5s ease-out;
 }
+
+/* Navigation Menu */
+.site-nav {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  text-align: center;
+}
+
+.site-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  position: relative;
+}
+
+.site-nav li {
+  position: relative;
+}
+
+.site-nav a {
+  color: #f0f0f0;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.site-nav a:hover {
+  color: #8a2be2;
+}
+
+/* Dropdown Content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.95);
+  top: 2.5rem;
+  left: 0;
+  min-width: 200px;
+  padding: 0.5rem 0;
+  border-radius: 8px;
+  z-index: 1000;
+  flex-direction: column;
+}
+
+.dropdown-content li {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.dropdown-content li a {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+}

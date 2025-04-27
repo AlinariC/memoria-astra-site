@@ -243,9 +243,8 @@ footer a:hover {
   display: none;
   position: absolute;
   background: rgba(0, 0, 0, 0.95);
-  top: calc(100% + 10px); /* <<< key change */
-  left: 50%;
-  transform: translateX(-50%);
+  top: calc(100% + 8px); /* Position just below Books */
+  left: 0; /* <<< Key Change */
   min-width: 200px;
   padding: 0.5rem 0;
   border-radius: 8px;

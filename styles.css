@@ -241,7 +241,7 @@ footer a:hover {
   display: none;
   position: absolute;
   background: rgba(0, 0, 0, 0.95);
-  top: 2.5rem;
+  top: 100%; /* position directly under the Books link */
   left: 0;
   min-width: 200px;
   padding: 0.5rem 0;

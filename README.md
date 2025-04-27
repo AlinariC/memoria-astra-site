@@ -89,7 +89,7 @@ This site is built using **Jekyll**, **Markdown**, and **Liquid templates** for 
 ## 🛡 License
 
 Content and design © 2025 Alinari Campbell.  
-Website code licensed under the MIT License unless otherwise noted.
+Website code licensed under the PPPL v1.0 License unless otherwise noted.
 
 ---
 

@@ -234,7 +234,9 @@ footer a:hover {
 /* Dropdown (parent) positioning */
 .dropdown {
   position: relative;
-  overflow: visible;
+  height: 100%; /* <<< Force Books ▾ to fill the height of the nav bar */
+  display: flex;
+  align-items: center; /* <<< Center the Books text inside */
 }
 
 /* Dropdown Content */
@@ -248,7 +250,7 @@ footer a:hover {
   min-width: 200px;
   padding: 0.5rem 0;
   border-radius: 8px;
-  z-index: 2000; /* higher than .site-nav */
+  z-index: 2000;
   flex-direction: column;
   opacity: 0;
   transition: opacity 0.3s ease, transform 0.3s ease;

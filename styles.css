@@ -201,7 +201,6 @@ footer a:hover {
   z-index: 1000;
   text-align: center;
   height: 50px; /* <<< ADD THIS to fix height */
-  overflow: hidden; /* <<< ADD THIS to prevent dropdown from pushing nav */
 }
 
 .site-nav ul {
@@ -243,13 +242,13 @@ footer a:hover {
   display: none;
   position: absolute;
   background: rgba(0, 0, 0, 0.95);
-  top: 100%; /* attach directly under Books link */
-  left: 50%; /* start centered horizontally under the link */
-  transform: translateX(-50%); /* perfectly center the dropdown relative to Books */
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
   min-width: 200px;
   padding: 0.5rem 0;
   border-radius: 8px;
-  z-index: 2000;
+  z-index: 2000; /* higher than .site-nav */
   flex-direction: column;
   opacity: 0;
   transition: opacity 0.3s ease, transform 0.3s ease;

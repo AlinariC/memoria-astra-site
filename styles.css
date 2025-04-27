@@ -200,6 +200,8 @@ footer a:hover {
   top: 0;
   z-index: 1000;
   text-align: center;
+  height: 50px; /* <<< ADD THIS to fix height */
+  overflow: hidden; /* <<< ADD THIS to prevent dropdown from pushing nav */
 }
 
 .site-nav ul {
@@ -209,7 +211,7 @@ footer a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  height: 100%; /* <<< ADD THIS to make links centered inside nav */
   position: relative;
 }
 

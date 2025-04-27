@@ -8,6 +8,7 @@ body {
   background: url('/assets/images/starfield.jpg') center center fixed no-repeat;
   background-size: cover;
   background-color: black;
+  overflow-x: hidden;
 }
 
 a {
@@ -205,10 +206,10 @@ footer {
 }
 
 .author-image {
-  width: 200px;
-  height: 200px;
+  width: 240px;
+  height: 320px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 50% / 40%; /* <<< Makes it vertically oval */
   margin-bottom: 2rem;
   border: 3px solid #d8b4ff;
 }

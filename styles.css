@@ -243,8 +243,9 @@ footer a:hover {
   display: none;
   position: absolute;
   background: rgba(0, 0, 0, 0.95);
-  top: calc(100% + 8px); /* Position just below Books */
-  left: 0; /* <<< Key Change */
+  top: 100%; /* attach directly under Books link */
+  left: 50%; /* start centered horizontally under the link */
+  transform: translateX(-50%); /* perfectly center the dropdown relative to Books */
   min-width: 200px;
   padding: 0.5rem 0;
   border-radius: 8px;

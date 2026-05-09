@@ -27,10 +27,12 @@ $books = load_books();
             <span><?php echo e($tag); ?></span>
           <?php endforeach; ?>
         </div>
-        <?php if (!empty($book['buy_url'])): ?>
-          <a class="button button-primary button-small" href="<?php echo e($book['buy_url']); ?>" target="_blank" rel="noopener noreferrer" aria-label="Buy <?php echo e($book['title']); ?> on Amazon">Buy Now</a>
-        <?php endif; ?>
       </div>
+      <?php if (!empty($book['buy_url'])): ?>
+        <div class="archive-actions">
+          <a class="button button-primary button-small" href="<?php echo e($book['buy_url']); ?>" target="_blank" rel="noopener noreferrer" aria-label="Buy <?php echo e($book['title']); ?> on Amazon">Buy Now</a>
+        </div>
+      <?php endif; ?>
     </article>
   <?php endforeach; ?>
 </section>

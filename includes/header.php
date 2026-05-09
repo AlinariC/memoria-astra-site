@@ -5,6 +5,8 @@ $siteName = 'Memoria Astra';
 $pageTitle = $pageTitle ?? $siteName;
 $pageDescription = $pageDescription ?? 'Explore the Memoria Astra Cycle, a speculative saga of memory, survival, myth, and rebirth across the stars.';
 $title = $pageTitle === $siteName ? $siteName : $pageTitle . ' | ' . $siteName;
+$stylesVersion = filemtime(__DIR__ . '/../assets/styles.css') ?: time();
+$scriptVersion = filemtime(__DIR__ . '/../assets/site.js') ?: time();
 $navItems = [
   ['href' => '/index.php', 'label' => 'Home', 'page' => 'index.php'],
   ['href' => '/books.php', 'label' => 'Books', 'page' => 'books.php'],
@@ -26,9 +28,9 @@ $navItems = [
   <meta name="twitter:card" content="summary_large_image" />
   <title><?php echo e($title); ?></title>
   <link rel="preload" href="/assets/images/optimized/starfield.jpg" as="image" />
-  <link rel="stylesheet" href="/assets/styles.css" />
+  <link rel="stylesheet" href="/assets/styles.css?v=<?php echo e($stylesVersion); ?>" />
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-  <script src="/assets/site.js" defer></script>
+  <script src="/assets/site.js?v=<?php echo e($scriptVersion); ?>" defer></script>
 </head>
 <body>
   <div class="ambient-field" aria-hidden="true"></div>

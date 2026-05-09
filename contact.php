@@ -10,14 +10,14 @@ include 'includes/header.php';
   <p>Questions, reader notes, collaboration inquiries, or press requests can all begin here.</p>
 
   <div class="contact-grid">
-    <a class="contact-card" href="mailto:contact@memoriaastra.com">
+    <a class="contact-card" href="mailto:info@memoriaastra.com">
       <span>Email</span>
-      <strong>contact@memoriaastra.com</strong>
+      <strong>info@memoriaastra.com</strong>
     </a>
     <div class="contact-card">
       <span>Mailing Address</span>
       <strong>Memoria Astra</strong>
-      <p>100 Ranch Road<br />Reedsport, OR 97467</p>
+      <p>8429 E Louise Dr.<br />Tucson, AZ 85730</p>
     </div>
   </div>
 </section>

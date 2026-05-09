@@ -7,6 +7,7 @@
     "status": "Opening volume",
     "image": "terra.jpg",
     "slug": "terra-in-the-mists",
+    "buy_url": "https://www.amazon.com/dp/9798280601932",
     "signal": "The first remembered world rises out of silence.",
     "description": "The Memoria Astra Cycle opens on a world wrapped in omen and fog, where buried memory becomes the first map toward survival.",
     "tags": ["Origins", "Lost world", "Memory"]
@@ -19,6 +20,7 @@
     "status": "Second volume",
     "image": "before.jpg",
     "slug": "before-the-mists",
+    "buy_url": "https://www.amazon.com/dp/9798280619814",
     "signal": "Every myth has a before.",
     "description": "A descent into the vanished age that shaped the cycle, revealing the choices, fractures, and sacred technologies that came before the forgetting.",
     "tags": ["Prehistory", "Revelation", "Myth"]
@@ -31,6 +33,7 @@
     "status": "Third volume",
     "image": "crimson.jpg",
     "slug": "crimson-reliquary",
+    "buy_url": "https://www.amazon.com/dp/9798280622265",
     "signal": "Relics remember what empires try to bury.",
     "description": "The saga sharpens into blood, inheritance, and forbidden artifacts as the archive of the past begins to answer back.",
     "tags": ["Relics", "Inheritance", "Fire"]
@@ -43,6 +46,7 @@
     "status": "Fourth volume",
     "image": "children.jpg",
     "slug": "children-of-the-divide",
+    "buy_url": "https://www.amazon.com/dp/9798280817074",
     "signal": "A broken frontier creates its own heirs.",
     "description": "Across the torn threshold between worlds, a new generation inherits the cost of division and the dangerous hope of crossing it.",
     "tags": ["Frontier", "Legacy", "Survival"]
@@ -55,6 +59,7 @@
     "status": "Fifth volume",
     "image": "echoes.jpg",
     "slug": "echoes-of-lyra",
+    "buy_url": "https://www.amazon.com/dp/9798280824331",
     "signal": "A song from the deep field changes the map.",
     "description": "Signals, songs, and ancient harmonics draw the cycle outward, where what was once memory becomes a living force among the stars.",
     "tags": ["Signal", "Music", "Deep space"]
@@ -67,6 +72,7 @@
     "status": "Sixth volume",
     "image": "harmonic.jpg",
     "slug": "harmonic-rebirth",
+    "buy_url": "https://www.amazon.com/dp/9798281503518",
     "signal": "What survives must learn to sing again.",
     "description": "After ruin and revelation, the cycle turns toward renewal as broken histories are tuned into an impossible future.",
     "tags": ["Renewal", "Resonance", "Future"]
@@ -79,6 +85,7 @@
     "status": "Seventh volume",
     "image": "foundations.jpg",
     "slug": "foundations-of-flame",
+    "buy_url": "https://www.amazon.com/dp/9798281667579",
     "signal": "The final foundation is made of fire.",
     "description": "The seventh volume gathers the scattered embers of the saga into a fierce reckoning with creation, memory, and the cost of beginning again.",
     "tags": ["Finale", "Creation", "Rebirth"]

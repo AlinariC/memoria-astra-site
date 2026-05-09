@@ -58,6 +58,9 @@ $featured = $books[0] ?? null;
           <h3><?php echo e($book['title']); ?></h3>
           <p><?php echo e($book['signal']); ?></p>
         </a>
+        <?php if (!empty($book['buy_url'])): ?>
+          <a class="buy-link" href="<?php echo e($book['buy_url']); ?>" target="_blank" rel="noopener noreferrer" aria-label="Buy <?php echo e($book['title']); ?> on Amazon">Buy Now</a>
+        <?php endif; ?>
       </article>
     <?php endforeach; ?>
   </div>

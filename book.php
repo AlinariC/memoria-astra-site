@@ -24,7 +24,9 @@ include 'includes/header.php';
         <?php endforeach; ?>
       </div>
       <div class="hero-actions">
-        <a class="button button-primary" href="/contact.php">Ask about this book</a>
+        <?php if (!empty($book['buy_url'])): ?>
+          <a class="button button-primary" href="<?php echo e($book['buy_url']); ?>" target="_blank" rel="noopener noreferrer">Buy Now</a>
+        <?php endif; ?>
         <a class="button button-ghost" href="/books.php">Back to archive</a>
       </div>
     </div>

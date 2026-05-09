@@ -1,0 +1,86 @@
+[
+  {
+    "title": "Terra in the Mists",
+    "subtitle": "Book One",
+    "volume": 1,
+    "volume_label": "Book I",
+    "status": "Opening volume",
+    "image": "terra.jpg",
+    "slug": "terra-in-the-mists",
+    "signal": "The first remembered world rises out of silence.",
+    "description": "The Memoria Astra Cycle opens on a world wrapped in omen and fog, where buried memory becomes the first map toward survival.",
+    "tags": ["Origins", "Lost world", "Memory"]
+  },
+  {
+    "title": "Before the Mists",
+    "subtitle": "Book Two",
+    "volume": 2,
+    "volume_label": "Book II",
+    "status": "Second volume",
+    "image": "before.jpg",
+    "slug": "before-the-mists",
+    "signal": "Every myth has a before.",
+    "description": "A descent into the vanished age that shaped the cycle, revealing the choices, fractures, and sacred technologies that came before the forgetting.",
+    "tags": ["Prehistory", "Revelation", "Myth"]
+  },
+  {
+    "title": "Crimson Reliquary",
+    "subtitle": "Book Three",
+    "volume": 3,
+    "volume_label": "Book III",
+    "status": "Third volume",
+    "image": "crimson.jpg",
+    "slug": "crimson-reliquary",
+    "signal": "Relics remember what empires try to bury.",
+    "description": "The saga sharpens into blood, inheritance, and forbidden artifacts as the archive of the past begins to answer back.",
+    "tags": ["Relics", "Inheritance", "Fire"]
+  },
+  {
+    "title": "Children of the Divide",
+    "subtitle": "Book Four",
+    "volume": 4,
+    "volume_label": "Book IV",
+    "status": "Fourth volume",
+    "image": "children.jpg",
+    "slug": "children-of-the-divide",
+    "signal": "A broken frontier creates its own heirs.",
+    "description": "Across the torn threshold between worlds, a new generation inherits the cost of division and the dangerous hope of crossing it.",
+    "tags": ["Frontier", "Legacy", "Survival"]
+  },
+  {
+    "title": "Echoes of Lyra",
+    "subtitle": "Book Five",
+    "volume": 5,
+    "volume_label": "Book V",
+    "status": "Fifth volume",
+    "image": "echoes.jpg",
+    "slug": "echoes-of-lyra",
+    "signal": "A song from the deep field changes the map.",
+    "description": "Signals, songs, and ancient harmonics draw the cycle outward, where what was once memory becomes a living force among the stars.",
+    "tags": ["Signal", "Music", "Deep space"]
+  },
+  {
+    "title": "Harmonic Rebirth",
+    "subtitle": "Book Six",
+    "volume": 6,
+    "volume_label": "Book VI",
+    "status": "Sixth volume",
+    "image": "harmonic.jpg",
+    "slug": "harmonic-rebirth",
+    "signal": "What survives must learn to sing again.",
+    "description": "After ruin and revelation, the cycle turns toward renewal as broken histories are tuned into an impossible future.",
+    "tags": ["Renewal", "Resonance", "Future"]
+  },
+  {
+    "title": "Foundations of Flame",
+    "subtitle": "Book Seven",
+    "volume": 7,
+    "volume_label": "Book VII",
+    "status": "Seventh volume",
+    "image": "foundations.jpg",
+    "slug": "foundations-of-flame",
+    "signal": "The final foundation is made of fire.",
+    "description": "The seventh volume gathers the scattered embers of the saga into a fierce reckoning with creation, memory, and the cost of beginning again.",
+    "tags": ["Finale", "Creation", "Rebirth"]
+  }
+]

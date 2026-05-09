@@ -1,0 +1,20 @@
+services:
+  memoriaastra:
+    build: .
+    container_name: memoriaastra
+    restart: unless-stopped
+    networks:
+      - traefik
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=${TRAEFIK_NETWORK:-traefik}
+      - traefik.http.routers.memoriaastra.rule=Host(`${DOMAIN:-memoriaastra.com}`)
+      - traefik.http.routers.memoriaastra.entrypoints=websecure
+      - traefik.http.routers.memoriaastra.tls=true
+      - traefik.http.routers.memoriaastra.tls.certresolver=${TRAEFIK_CERT_RESOLVER:-letsencrypt}
+      - traefik.http.services.memoriaastra.loadbalancer.server.port=80
+
+networks:
+  traefik:
+    external: true
+    name: ${TRAEFIK_NETWORK:-traefik}

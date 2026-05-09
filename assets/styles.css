@@ -485,19 +485,22 @@ h3 {
 
 .book-grid {
   display: grid;
-  grid-template-columns: repeat(7, minmax(170px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 1rem;
 }
 
 .book-card {
   min-width: 0;
   display: grid;
+  grid-template-rows: 1fr auto;
   gap: 0.65rem;
 }
 
 .book-card-link {
   position: relative;
   display: grid;
+  grid-template-rows: auto auto auto 1fr;
+  align-content: start;
   gap: 0.85rem;
   min-height: 100%;
   padding: 0.7rem;
@@ -515,6 +518,15 @@ h3 {
   border-color: rgba(255, 209, 102, 0.46);
   background: linear-gradient(180deg, rgba(255, 209, 102, 0.12), rgba(255, 255, 255, 0.04));
   transform: translateY(-8px);
+}
+
+.book-cover-frame {
+  display: block;
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 22px 56px rgba(0, 0, 0, 0.38);
 }
 
 .book-number {
@@ -535,13 +547,14 @@ h3 {
 }
 
 .book-cover {
-  aspect-ratio: 2 / 3;
-  box-shadow: 0 22px 56px rgba(0, 0, 0, 0.38);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .book-glow {
-  position: absolute;
-  inset: auto 0 8.6rem;
+  display: block;
+  width: 100%;
   height: 3px;
   background: linear-gradient(90deg, transparent, var(--crimson), var(--gold), var(--cyan), transparent);
   opacity: 0.72;
@@ -556,12 +569,14 @@ h3 {
   margin: 0;
   color: var(--muted);
   font-size: 0.95rem;
+  overflow-wrap: anywhere;
 }
 
 .buy-link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
   min-height: 2.65rem;
   padding: 0 0.9rem;
   border: 1px solid rgba(255, 49, 95, 0.64);

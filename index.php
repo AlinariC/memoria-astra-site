@@ -53,7 +53,9 @@ $featured = $books[0] ?? null;
       <article class="book-card reveal" style="--delay: <?php echo (int) ($index * 55); ?>ms;">
         <a href="<?php echo e(book_url($book)); ?>" class="book-card-link" aria-label="View <?php echo e($book['title']); ?>">
           <span class="book-number"><?php echo str_pad((string) $book['volume'], 2, '0', STR_PAD_LEFT); ?></span>
-          <img src="<?php echo e(book_image($book)); ?>" alt="<?php echo e($book['title']); ?> cover" class="book-cover" loading="lazy" />
+          <span class="book-cover-frame">
+            <img src="<?php echo e(book_image($book)); ?>" alt="<?php echo e($book['title']); ?> cover" class="book-cover" loading="lazy" />
+          </span>
           <span class="book-glow" aria-hidden="true"></span>
           <h3><?php echo e($book['title']); ?></h3>
           <p><?php echo e($book['signal']); ?></p>

@@ -31,6 +31,8 @@ The included `docker-compose.yml` expects an existing external Traefik network. 
 
 The live site is deployed through DigitalOcean App Platform from the root `Dockerfile`. The App Platform app should point at `AlinariC/memoria-astra-site`, branch `main`, with automatic deploys enabled on push.
 
+GitHub repository: <https://github.com/AlinariC/memoria-astra-site>
+
 The root `DO_API_KEY` file is intentionally ignored by git and Docker. Keep deployment credentials local.
 
 ## Deployment Notes

@@ -1,0 +1,42 @@
+name: memoriaastra
+region: sfo
+features:
+  - buildpack-stack=ubuntu-22
+services:
+  - name: web
+    github:
+      repo: AlinariC/memoria-astra-site
+      branch: main
+      deploy_on_push: true
+    source_dir: /
+    dockerfile_path: Dockerfile
+    http_port: 80
+    instance_size_slug: apps-s-1vcpu-0.5gb
+    instance_count: 1
+    health_check:
+      http_path: /
+    alerts:
+      - rule: CPU_UTILIZATION
+        operator: GREATER_THAN
+        value: 75
+        window: FIVE_MINUTES
+      - rule: MEM_UTILIZATION
+        operator: GREATER_THAN
+        value: 80
+        window: FIVE_MINUTES
+domains:
+  - domain: memoriaastra.com
+    type: PRIMARY
+    zone: memoriaastra.com
+    minimum_tls_version: "1.2"
+  - domain: www.memoriaastra.com
+    type: ALIAS
+    zone: memoriaastra.com
+    minimum_tls_version: "1.2"
+ingress:
+  rules:
+    - match:
+        path:
+          prefix: /
+      component:
+        name: web

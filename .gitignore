@@ -1,5 +1,6 @@
 .DS_Store
 .env
+DO_API_KEY
 ssh-sudo-pwd
 sudo-ssh-pwd
 node_modules/

@@ -45,7 +45,7 @@ include 'includes/header.php';
       </div>
       <div class="store-row store-row-large" aria-label="Retail links for <?php echo e($book['title']); ?>">
         <?php foreach (retail_links($book) as $link): ?>
-          <a class="store-button store-<?php echo e($link['service']); ?>" href="<?php echo e($link['url']); ?>" target="_blank" rel="noopener noreferrer"><?php echo e($link['label']); ?></a>
+          <?php echo retail_button($link); ?>
         <?php endforeach; ?>
       </div>
       <div class="hero-actions detail-actions">

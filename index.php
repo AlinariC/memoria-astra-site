@@ -6,97 +6,114 @@ include 'includes/header.php';
 $books = load_books();
 $mainBooks = main_books();
 $collectionBooks = collection_books();
-$featured = $collectionBooks[1] ?? ($books[0] ?? null);
-$heroStack = array_slice(array_merge([$featured], array_reverse(array_slice($mainBooks, -4))), 0, 5);
+$heroBook = end($mainBooks) ?: ($books[0] ?? null);
+$collectionFeature = $collectionBooks[1] ?? ($collectionBooks[0] ?? null);
+$originBooks = array_slice($mainBooks, 0, 5);
+$middleBooks = array_slice($mainBooks, 5, 5);
+$closingBooks = array_slice($mainBooks, -5);
+$totalBooks = count($books);
 ?>
 
-<section class="hero">
-  <div class="hero-copy reveal">
-    <p class="eyebrow">A 15-book speculative saga</p>
+<section class="home-hero">
+  <div class="home-hero-copy reveal">
+    <p class="eyebrow">Complete cycle now available</p>
     <h1>Memoria Astra</h1>
-    <p class="hero-lede">Civilizations of mist, flame, root, memory, and song cross the long dark between collapse and rebirth. The complete cycle now spans fifteen main titles plus two collection novels.</p>
+    <p class="hero-lede">Fifteen main titles and two collection novels trace a remembered universe from living mist to the Final Loom: flame, roots, relics, thrones, songs, and civilizations brave enough to begin again.</p>
     <div class="hero-actions">
-      <a class="button button-primary" href="/books.php">Explore the cycle</a>
+      <a class="button button-primary" href="/books.php">Explore the archive</a>
       <a class="button button-ghost" href="/author.php">Meet the author</a>
     </div>
-    <div class="hero-metrics" aria-label="Series scale">
-      <span><strong><?php echo count($mainBooks); ?></strong> main titles</span>
-      <span><strong><?php echo count($collectionBooks); ?></strong> collection novels</span>
-      <span><strong>3</strong> storefronts</span>
-    </div>
+    <?php if ($heroBook): ?>
+      <div class="hero-retail-panel" aria-label="Retail links for <?php echo e($heroBook['title']); ?>">
+        <span class="retail-panel-label">Latest main title</span>
+        <div class="retail-button-row">
+          <?php foreach (array_slice(retail_links($heroBook), 0, 4) as $link): ?>
+            <?php echo retail_button($link, 'compact'); ?>
+          <?php endforeach; ?>
+        </div>
+      </div>
+    <?php endif; ?>
   </div>
 
-  <?php if ($featured): ?>
-    <div class="hero-library reveal" style="--delay: 120ms;">
-      <?php foreach ($heroStack as $index => $book): ?>
-        <a class="hero-volume hero-volume-<?php echo (int) $index; ?>" href="<?php echo e(book_url($book)); ?>" aria-label="View <?php echo e($book['title']); ?>">
-          <img src="<?php echo e(book_image($book)); ?>" alt="<?php echo e($book['title']); ?> cover" />
+  <?php if ($heroBook): ?>
+    <div class="hero-book-stage reveal" style="--delay: 120ms;">
+      <a class="hero-cover-card" href="<?php echo e(book_url($heroBook)); ?>" aria-label="View <?php echo e($heroBook['title']); ?>">
+        <img src="<?php echo e(book_image($heroBook)); ?>" alt="<?php echo e($heroBook['title']); ?> cover" />
+        <span class="cover-caption">
+          <span><?php echo e($heroBook['volume_label']); ?></span>
+          <strong><?php echo e($heroBook['title']); ?></strong>
+        </span>
+      </a>
+      <?php if ($collectionFeature): ?>
+        <a class="hero-companion-card" href="<?php echo e(book_url($collectionFeature)); ?>" aria-label="View <?php echo e($collectionFeature['title']); ?>">
+          <img src="<?php echo e(book_image($collectionFeature)); ?>" alt="<?php echo e($collectionFeature['title']); ?> cover" />
+          <span><?php echo e($collectionFeature['title']); ?></span>
         </a>
-      <?php endforeach; ?>
-      <div class="hero-feature">
-        <span><?php echo e($featured['volume_label']); ?></span>
-        <strong><?php echo e($featured['title']); ?></strong>
-        <p><?php echo e($featured['signal']); ?></p>
-      </div>
+      <?php endif; ?>
     </div>
   <?php endif; ?>
 </section>
 
-<section class="statement reveal" id="signal">
-  <div>
-    <p class="eyebrow">The archive</p>
-    <h2>A universe remembered through worlds, heirs, relics, and songs.</h2>
+<section class="signal-board reveal" aria-label="Series overview">
+  <div class="signal-stat">
+    <strong><?php echo count($mainBooks); ?></strong>
+    <span>Main titles</span>
   </div>
-  <p>From the mists before Earth to the Loomheart at the end of the Second Spiral, every volume carries a distinct cover, platform presence, and place in the larger myth.</p>
+  <div class="signal-stat">
+    <strong><?php echo count($collectionBooks); ?></strong>
+    <span>Collection novels</span>
+  </div>
+  <div class="signal-stat">
+    <strong><?php echo $totalBooks; ?></strong>
+    <span>Total volumes</span>
+  </div>
+  <div class="signal-stat">
+    <strong>5</strong>
+    <span>Formats and storefronts</span>
+  </div>
 </section>
 
-<section class="book-showcase">
+<section class="spiral-index">
   <div class="section-heading reveal">
-    <p class="eyebrow">Main sequence</p>
-    <h2>Fifteen books in orbit.</h2>
-    <a class="text-link" href="/books.php">View full archive</a>
+    <div>
+      <p class="eyebrow">Spiral index</p>
+      <h2>Read the cycle like a star chart.</h2>
+    </div>
+    <a class="text-link" href="/books.php">Full books page</a>
   </div>
-
-  <div class="book-grid">
+  <ol class="orbit-list" aria-label="Main sequence quick index">
     <?php foreach ($mainBooks as $index => $book): ?>
-      <article class="book-card reveal" style="--delay: <?php echo (int) ($index * 55); ?>ms;">
-        <a href="<?php echo e(book_url($book)); ?>" class="book-card-link" aria-label="View <?php echo e($book['title']); ?>">
-          <span class="book-number"><?php echo e($book['package']); ?></span>
-          <span class="book-cover-frame">
-            <img src="<?php echo e(book_image($book)); ?>" alt="<?php echo e($book['title']); ?> cover" class="book-cover" loading="lazy" />
-          </span>
-          <span class="book-glow" aria-hidden="true"></span>
-          <h3><?php echo e($book['title']); ?></h3>
-          <p><?php echo e($book['signal']); ?></p>
+      <li class="reveal" style="--delay: <?php echo (int) ($index * 35); ?>ms;">
+        <a href="<?php echo e(book_url($book)); ?>">
+          <span class="orbit-number"><?php echo e($book['package']); ?></span>
+          <span class="orbit-title"><?php echo e($book['title']); ?></span>
+          <span class="orbit-signal"><?php echo e($book['signal']); ?></span>
         </a>
-        <div class="mini-store-row" aria-label="Retail links for <?php echo e($book['title']); ?>">
-          <?php foreach (array_slice(retail_links($book), 0, 3) as $link): ?>
-            <a class="store-pill store-<?php echo e($link['service']); ?>" href="<?php echo e($link['url']); ?>" target="_blank" rel="noopener noreferrer"><?php echo e($link['label']); ?></a>
-          <?php endforeach; ?>
-        </div>
-      </article>
+      </li>
     <?php endforeach; ?>
-  </div>
+  </ol>
 </section>
 
-<section class="collection-strip reveal">
-  <div class="section-heading">
-    <p class="eyebrow">Collection novels</p>
-    <h2>The two great spirals.</h2>
+<section class="book-lane">
+  <div class="section-heading reveal">
+    <div>
+      <p class="eyebrow">Begin here</p>
+      <h2>The first signals.</h2>
+    </div>
   </div>
-  <div class="collection-grid">
-    <?php foreach ($collectionBooks as $index => $book): ?>
-      <article class="collection-card">
-        <a class="collection-cover" href="<?php echo e(book_url($book)); ?>" aria-label="View <?php echo e($book['title']); ?>">
+  <div class="cover-lane">
+    <?php foreach ($originBooks as $index => $book): ?>
+      <article class="cover-tile reveal" style="--delay: <?php echo (int) ($index * 60); ?>ms;">
+        <a class="cover-tile-art" href="<?php echo e(book_url($book)); ?>">
+          <span><?php echo e($book['package']); ?></span>
           <img src="<?php echo e(book_image($book)); ?>" alt="<?php echo e($book['title']); ?> cover" loading="lazy" />
         </a>
-        <div>
-          <p class="eyebrow"><?php echo e($book['package']); ?> / <?php echo e($book['volume_label']); ?></p>
+        <div class="cover-tile-copy">
           <h3><a href="<?php echo e(book_url($book)); ?>"><?php echo e($book['title']); ?></a></h3>
-          <p><?php echo e($book['description']); ?></p>
-          <div class="store-row" aria-label="Retail links for <?php echo e($book['title']); ?>">
-            <?php foreach (retail_links($book) as $link): ?>
-              <a class="store-button store-<?php echo e($link['service']); ?>" href="<?php echo e($link['url']); ?>" target="_blank" rel="noopener noreferrer"><?php echo e($link['label']); ?></a>
+          <p><?php echo e($book['signal']); ?></p>
+          <div class="retail-button-row retail-button-row-tight" aria-label="Retail links for <?php echo e($book['title']); ?>">
+            <?php foreach (array_slice(retail_links($book), 0, 3) as $link): ?>
+              <?php echo retail_button($link, 'mini'); ?>
             <?php endforeach; ?>
           </div>
         </div>
@@ -105,18 +122,70 @@ $heroStack = array_slice(array_merge([$featured], array_reverse(array_slice($mai
   </div>
 </section>
 
-<section class="feature-band reveal">
-  <div class="feature-stat">
-    <strong><?php echo count($mainBooks); ?></strong>
-    <span>main titles</span>
+<section class="arc-split">
+  <div class="arc-copy reveal">
+    <p class="eyebrow">Middle movement</p>
+    <h2>Memory turns into inheritance, accord, and power.</h2>
+    <p>The central volumes widen the saga from survival into consent, restraint, and the civilizations that learn what ancient music can demand of the living.</p>
   </div>
-  <div class="feature-stat">
-    <strong><?php echo count($books); ?></strong>
-    <span>total books</span>
+  <div class="arc-stack reveal" style="--delay: 120ms;">
+    <?php foreach ($middleBooks as $book): ?>
+      <a href="<?php echo e(book_url($book)); ?>">
+        <span><?php echo e($book['package']); ?></span>
+        <strong><?php echo e($book['title']); ?></strong>
+      </a>
+    <?php endforeach; ?>
   </div>
-  <div class="feature-stat">
-    <strong>Apple</strong>
-    <span>Google and Amazon too</span>
+</section>
+
+<section class="book-lane book-lane-final">
+  <div class="section-heading reveal">
+    <div>
+      <p class="eyebrow">Closing arc</p>
+      <h2>The Second Spiral gathers.</h2>
+    </div>
+  </div>
+  <div class="finale-grid">
+    <?php foreach ($closingBooks as $index => $book): ?>
+      <article class="finale-card reveal" style="--delay: <?php echo (int) ($index * 60); ?>ms;">
+        <a href="<?php echo e(book_url($book)); ?>" class="finale-cover">
+          <img src="<?php echo e(book_image($book)); ?>" alt="<?php echo e($book['title']); ?> cover" loading="lazy" />
+        </a>
+        <div>
+          <p class="eyebrow"><?php echo e($book['package']); ?> / <?php echo e($book['volume_label']); ?></p>
+          <h3><a href="<?php echo e(book_url($book)); ?>"><?php echo e($book['title']); ?></a></h3>
+          <p><?php echo e($book['signal']); ?></p>
+        </div>
+      </article>
+    <?php endforeach; ?>
+  </div>
+</section>
+
+<section class="collection-ledger reveal">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">Collection novels</p>
+      <h2>The two great spirals.</h2>
+    </div>
+  </div>
+  <div class="collection-ledger-grid">
+    <?php foreach ($collectionBooks as $book): ?>
+      <article class="collection-ledger-card">
+        <a class="collection-ledger-cover" href="<?php echo e(book_url($book)); ?>">
+          <img src="<?php echo e(book_image($book)); ?>" alt="<?php echo e($book['title']); ?> cover" loading="lazy" />
+        </a>
+        <div class="collection-ledger-copy">
+          <p class="eyebrow"><?php echo e($book['package']); ?> / <?php echo e($book['volume_label']); ?></p>
+          <h3><a href="<?php echo e(book_url($book)); ?>"><?php echo e($book['title']); ?></a></h3>
+          <p><?php echo e($book['description']); ?></p>
+          <div class="retail-button-row" aria-label="Retail links for <?php echo e($book['title']); ?>">
+            <?php foreach (retail_links($book) as $link): ?>
+              <?php echo retail_button($link, 'compact'); ?>
+            <?php endforeach; ?>
+          </div>
+        </div>
+      </article>
+    <?php endforeach; ?>
   </div>
 </section>
 

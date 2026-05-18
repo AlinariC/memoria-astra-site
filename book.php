@@ -14,19 +14,41 @@ include 'includes/header.php';
       <img src="<?php echo e(book_image($book)); ?>" alt="<?php echo e($book['title']); ?> cover" class="book-cover-large" />
     </div>
     <div class="book-detail-copy reveal" style="--delay: 120ms;">
-      <p class="eyebrow"><?php echo e($book['volume_label']); ?> / <?php echo e($book['status']); ?></p>
+      <p class="eyebrow"><?php echo e($book['package']); ?> / <?php echo e(book_meta_line($book)); ?></p>
       <h1><?php echo e($book['title']); ?></h1>
       <p class="detail-signal"><?php echo e($book['signal']); ?></p>
       <p><?php echo e($book['description']); ?></p>
+      <dl class="book-facts">
+        <div>
+          <dt>Sequence</dt>
+          <dd><?php echo e($book['volume_label']); ?></dd>
+        </div>
+        <div>
+          <dt>Ebook</dt>
+          <dd><?php echo e($book['ebook_price'] ?? 'Available'); ?></dd>
+        </div>
+        <div>
+          <dt>Paperback</dt>
+          <dd><?php echo e($book['paperback_price'] ?? 'Available'); ?></dd>
+        </div>
+        <?php if (!empty($book['hardcover_price'])): ?>
+          <div>
+            <dt>Hardcover</dt>
+            <dd><?php echo e($book['hardcover_price']); ?></dd>
+          </div>
+        <?php endif; ?>
+      </dl>
       <div class="tag-list" aria-label="Book themes">
         <?php foreach ($book['tags'] as $tag): ?>
           <span><?php echo e($tag); ?></span>
         <?php endforeach; ?>
       </div>
-      <div class="hero-actions">
-        <?php if (!empty($book['buy_url'])): ?>
-          <a class="button button-primary" href="<?php echo e($book['buy_url']); ?>" target="_blank" rel="noopener noreferrer">Buy Now</a>
-        <?php endif; ?>
+      <div class="store-row store-row-large" aria-label="Retail links for <?php echo e($book['title']); ?>">
+        <?php foreach (retail_links($book) as $link): ?>
+          <a class="store-button store-<?php echo e($link['service']); ?>" href="<?php echo e($link['url']); ?>" target="_blank" rel="noopener noreferrer"><?php echo e($link['label']); ?></a>
+        <?php endforeach; ?>
+      </div>
+      <div class="hero-actions detail-actions">
         <a class="button button-ghost" href="/books.php">Back to archive</a>
       </div>
     </div>

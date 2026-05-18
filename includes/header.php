@@ -3,7 +3,7 @@ require_once __DIR__ . '/helpers.php';
 
 $siteName = 'Memoria Astra';
 $pageTitle = $pageTitle ?? $siteName;
-$pageDescription = $pageDescription ?? 'Explore the Memoria Astra Cycle, a speculative saga of memory, survival, myth, and rebirth across the stars.';
+$pageDescription = $pageDescription ?? 'Explore the Memoria Astra Cycle, a speculative saga of memory, flame, song, survival, and rebirth across the stars.';
 $title = $pageTitle === $siteName ? $siteName : $pageTitle . ' | ' . $siteName;
 $stylesVersion = filemtime(__DIR__ . '/../assets/styles.css') ?: time();
 $scriptVersion = filemtime(__DIR__ . '/../assets/site.js') ?: time();
@@ -41,7 +41,7 @@ $navItems = [
         <span class="brand-mark" aria-hidden="true"></span>
         <span>
           <span class="brand-name">Memoria Astra</span>
-          <span class="brand-subline">The Cycle</span>
+          <span class="brand-subline">Fifteen-book cycle</span>
         </span>
       </a>
       <ul class="nav-menu">

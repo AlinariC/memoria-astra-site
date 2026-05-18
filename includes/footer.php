@@ -2,7 +2,7 @@
   <footer class="site-footer">
     <div class="footer-cta">
       <p class="eyebrow">Enter the archive</p>
-      <h2>Seven volumes. One remembered universe.</h2>
+      <h2>Fifteen main titles. Two collection novels. One remembered universe.</h2>
       <a class="button button-primary" href="/books.php">Browse the cycle</a>
     </div>
     <div class="footer-meta">

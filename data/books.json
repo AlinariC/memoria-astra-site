@@ -1,93 +1,799 @@
 [
   {
+    "title": "The First Spiral",
+    "subtitle": "Collection Novel",
+    "package": "00",
+    "volume": null,
+    "volume_label": "Collection Novel",
+    "series_type": "collection",
+    "status": "Arc collection",
+    "image": "books/00-the-first-spiral.jpg",
+    "slug": "the-first-spiral",
+    "package_slug": "00-the-first-spiral",
+    "ebook_price": "$3.99",
+    "paperback_price": "$16.99",
+    "hardcover_price": "$24.99",
+    "page_count": 393,
+    "identifier": "urn:uuid:36ad9d8e-cc34-4eaa-b905-1d2ddb7e8bd4",
+    "signal": "The old universe sings its warning before the Second Spiral wakes.",
+    "description": "Before the Second Spiral could sing, the First had to remember why it broke. Across Venus, Earth, Mars, and the outer dark, the oldest civilizations of the Solar System leave songs in stone, memories in mist, and warnings buried beneath worlds that were never as silent as they seemed.",
+    "tags": [
+      "Collection",
+      "Origins",
+      "Solar myth"
+    ],
+    "links": [
+      {
+        "service": "apple",
+        "label": "Apple Books",
+        "url": "https://books.apple.com/us/search?term=The%20First%20Spiral%20Alinari%20Campbell"
+      },
+      {
+        "service": "google",
+        "label": "Google Play",
+        "url": "https://play.google.com/store/books/details?id=GGKEY%3AA02YGJX45RY"
+      },
+      {
+        "service": "kindle",
+        "label": "Kindle",
+        "url": "https://www.amazon.com/s?k=The+First+Spiral+Alinari+Campbell+Kindle"
+      },
+      {
+        "service": "paperback",
+        "label": "Paperback",
+        "url": "https://www.amazon.com/s?k=The+First+Spiral+Alinari+Campbell+paperback"
+      },
+      {
+        "service": "hardcover",
+        "label": "Hardcover",
+        "url": "https://www.amazon.com/dp/9798197379412"
+      }
+    ]
+  },
+  {
     "title": "Terra in the Mists",
-    "subtitle": "Book One",
+    "subtitle": "Book One in the Memoria Astra Cycle",
+    "package": "01",
     "volume": 1,
     "volume_label": "Book I",
-    "status": "Opening volume",
-    "image": "terra.jpg",
+    "series_type": "main",
+    "status": "Main sequence",
+    "image": "books/01-terra-in-the-mists.jpg",
     "slug": "terra-in-the-mists",
-    "buy_url": "https://www.amazon.com/dp/9798280601932",
-    "signal": "The first remembered world rises out of silence.",
-    "description": "The Memoria Astra Cycle opens on a world wrapped in omen and fog, where buried memory becomes the first map toward survival.",
-    "tags": ["Origins", "Lost world", "Memory"]
+    "package_slug": "01-terra-in-the-mists",
+    "ebook_price": "$0.99",
+    "paperback_price": "$6.99",
+    "hardcover_price": null,
+    "page_count": 52,
+    "identifier": "urn:isbn:9798280601932",
+    "signal": "The first remembered world rises from living fog.",
+    "description": "Before the Moon, before the silence, Terra breathed beneath living mists. Aru-Solien remembers the world before it fell - a luminous Earth of skybeasts, grown cities, and ancient song. As Luna changes the tides and the clouds descend, one immortal witness carries the memory of a lost civilization toward a future that may yet sing again.",
+    "tags": [
+      "Origins",
+      "Lost Earth",
+      "Memory"
+    ],
+    "links": [
+      {
+        "service": "apple",
+        "label": "Apple Books",
+        "url": "https://books.apple.com/us/book/terra-in-the-mists/id6744857364"
+      },
+      {
+        "service": "google",
+        "label": "Google Play",
+        "url": "https://play.google.com/store/search?q=Terra+in+the+Mists+Alinari+Campbell&c=books"
+      },
+      {
+        "service": "kindle",
+        "label": "Kindle",
+        "url": "https://www.amazon.com/s?k=Terra+in+the+Mists+Alinari+Campbell+Kindle"
+      },
+      {
+        "service": "paperback",
+        "label": "Paperback",
+        "url": "https://www.amazon.com/dp/9798280601932"
+      }
+    ]
   },
   {
     "title": "Before the Mists",
-    "subtitle": "Book Two",
+    "subtitle": "Book Two in the Memoria Astra Cycle",
+    "package": "02",
     "volume": 2,
     "volume_label": "Book II",
-    "status": "Second volume",
-    "image": "before.jpg",
+    "series_type": "main",
+    "status": "Main sequence",
+    "image": "books/02-before-the-mists.jpg",
     "slug": "before-the-mists",
-    "buy_url": "https://www.amazon.com/dp/9798280619814",
-    "signal": "Every myth has a before.",
-    "description": "A descent into the vanished age that shaped the cycle, revealing the choices, fractures, and sacred technologies that came before the forgetting.",
-    "tags": ["Prehistory", "Revelation", "Myth"]
+    "package_slug": "02-before-the-mists",
+    "ebook_price": "$0.99",
+    "paperback_price": "$6.99",
+    "hardcover_price": null,
+    "page_count": 61,
+    "identifier": "urn:isbn:9798280619814",
+    "signal": "Every myth has a before, and Venus remembers it.",
+    "description": "Before Earth bore life and before Luna hung in the heavens, there was Venus. In this sweeping prequel to Terra in the Mists, the elegant and ancient Phorsians face the collapse of their golden world. As their sun turns from warmth to flame, a visionary named Vael'Ari uncovers a forgotten signal buried deep within the planet's crust and the key to survival.",
+    "tags": [
+      "Venus",
+      "Prehistory",
+      "Survival"
+    ],
+    "links": [
+      {
+        "service": "apple",
+        "label": "Apple Books",
+        "url": "https://books.apple.com/us/search?term=Before%20the%20Mists%20Alinari%20Campbell"
+      },
+      {
+        "service": "google",
+        "label": "Google Play",
+        "url": "https://play.google.com/store/search?q=Before+the+Mists+Alinari+Campbell&c=books"
+      },
+      {
+        "service": "kindle",
+        "label": "Kindle",
+        "url": "https://www.amazon.com/s?k=Before+the+Mists+Alinari+Campbell+Kindle"
+      },
+      {
+        "service": "paperback",
+        "label": "Paperback",
+        "url": "https://www.amazon.com/dp/9798280619814"
+      }
+    ]
   },
   {
     "title": "Crimson Reliquary",
-    "subtitle": "Book Three",
+    "subtitle": "Book Three in the Memoria Astra Cycle",
+    "package": "03",
     "volume": 3,
     "volume_label": "Book III",
-    "status": "Third volume",
-    "image": "crimson.jpg",
+    "series_type": "main",
+    "status": "Main sequence",
+    "image": "books/03-crimson-reliquary.jpg",
     "slug": "crimson-reliquary",
-    "buy_url": "https://www.amazon.com/dp/9798280622265",
-    "signal": "Relics remember what empires try to bury.",
-    "description": "The saga sharpens into blood, inheritance, and forbidden artifacts as the archive of the past begins to answer back.",
-    "tags": ["Relics", "Inheritance", "Fire"]
+    "package_slug": "03-crimson-reliquary",
+    "ebook_price": "$0.99",
+    "paperback_price": "$7.99",
+    "hardcover_price": null,
+    "page_count": 86,
+    "identifier": "urn:isbn:9798280622265",
+    "signal": "Mars opens its vault of blood, code, and ancient recursion.",
+    "description": "Aru-Solien continues his journey beyond Terra and into the Martian depths, only to uncover the shattered relics of a civilization that remembered too much. As Spiral structures reawaken beneath Olympus Mons and ancient machines stir, Mars, Phobos, Deimos, and the forgotten Gate worlds reveal secrets buried beneath crimson ice and Spiral code.",
+    "tags": [
+      "Mars",
+      "Relics",
+      "Recursion"
+    ],
+    "links": [
+      {
+        "service": "apple",
+        "label": "Apple Books",
+        "url": "https://books.apple.com/us/search?term=Crimson%20Reliquary%20Alinari%20Campbell"
+      },
+      {
+        "service": "google",
+        "label": "Google Play",
+        "url": "https://play.google.com/store/search?q=Crimson+Reliquary+Alinari+Campbell&c=books"
+      },
+      {
+        "service": "kindle",
+        "label": "Kindle",
+        "url": "https://www.amazon.com/s?k=Crimson+Reliquary+Alinari+Campbell+Kindle"
+      },
+      {
+        "service": "paperback",
+        "label": "Paperback",
+        "url": "https://www.amazon.com/dp/9798280622265"
+      }
+    ]
   },
   {
     "title": "Children of the Divide",
-    "subtitle": "Book Four",
+    "subtitle": "Book Four in the Memoria Astra Cycle",
+    "package": "04",
     "volume": 4,
     "volume_label": "Book IV",
-    "status": "Fourth volume",
-    "image": "children.jpg",
+    "series_type": "main",
+    "status": "Main sequence",
+    "image": "books/04-children-of-the-divide.jpg",
     "slug": "children-of-the-divide",
-    "buy_url": "https://www.amazon.com/dp/9798280817074",
-    "signal": "A broken frontier creates its own heirs.",
-    "description": "Across the torn threshold between worlds, a new generation inherits the cost of division and the dangerous hope of crossing it.",
-    "tags": ["Frontier", "Legacy", "Survival"]
+    "package_slug": "04-children-of-the-divide",
+    "ebook_price": "$0.99",
+    "paperback_price": "$6.99",
+    "hardcover_price": null,
+    "page_count": 76,
+    "identifier": "urn:isbn:9798280817074",
+    "signal": "A broken threshold creates heirs brave enough to cross it.",
+    "description": "The Gate has opened. The Spiral remembers. And not all who return are welcome. After the storm of memory that nearly shattered the outer colonies, four strangers find themselves connected by glyphs older than language and visions older than stars. To survive what waits beyond the Divide, they must confront the truths of the cosmos and the truths within themselves.",
+    "tags": [
+      "Thresholds",
+      "Heirs",
+      "Frontier"
+    ],
+    "links": [
+      {
+        "service": "apple",
+        "label": "Apple Books",
+        "url": "https://books.apple.com/us/search?term=Children%20of%20the%20Divide%20Alinari%20Campbell"
+      },
+      {
+        "service": "google",
+        "label": "Google Play",
+        "url": "https://play.google.com/store/search?q=Children+of+the+Divide+Alinari+Campbell&c=books"
+      },
+      {
+        "service": "kindle",
+        "label": "Kindle",
+        "url": "https://www.amazon.com/s?k=Children+of+the+Divide+Alinari+Campbell+Kindle"
+      },
+      {
+        "service": "paperback",
+        "label": "Paperback",
+        "url": "https://www.amazon.com/dp/9798280817074"
+      }
+    ]
   },
   {
     "title": "Echoes of Lyra",
-    "subtitle": "Book Five",
+    "subtitle": "Book Five in the Memoria Astra Cycle",
+    "package": "05",
     "volume": 5,
     "volume_label": "Book V",
-    "status": "Fifth volume",
-    "image": "echoes.jpg",
+    "series_type": "main",
+    "status": "Main sequence",
+    "image": "books/05-echoes-of-lyra.jpg",
     "slug": "echoes-of-lyra",
-    "buy_url": "https://www.amazon.com/dp/9798280824331",
-    "signal": "A song from the deep field changes the map.",
-    "description": "Signals, songs, and ancient harmonics draw the cycle outward, where what was once memory becomes a living force among the stars.",
-    "tags": ["Signal", "Music", "Deep space"]
+    "package_slug": "05-echoes-of-lyra",
+    "ebook_price": "$0.99",
+    "paperback_price": "$6.99",
+    "hardcover_price": null,
+    "page_count": 74,
+    "identifier": "urn:isbn:9798280824331",
+    "signal": "A song from the deep field changes the shape of survival.",
+    "description": "As the Spiral begins its final inward bloom, Lyra awakens to a deeper purpose. Across galaxies and echoes, flamebearer Aru-Solien stands at the threshold of Spiral Prime, where all pasts and futures converge. From drowned worlds and forgotten temples to signal-bearing stars, Echoes of Lyra asks what survives the collapse of everything.",
+    "tags": [
+      "Lyra",
+      "Signals",
+      "Collapse"
+    ],
+    "links": [
+      {
+        "service": "apple",
+        "label": "Apple Books",
+        "url": "https://books.apple.com/us/search?term=Echoes%20of%20Lyra%20Alinari%20Campbell"
+      },
+      {
+        "service": "google",
+        "label": "Google Play",
+        "url": "https://play.google.com/store/search?q=Echoes+of+Lyra+Alinari+Campbell&c=books"
+      },
+      {
+        "service": "kindle",
+        "label": "Kindle",
+        "url": "https://www.amazon.com/s?k=Echoes+of+Lyra+Alinari+Campbell+Kindle"
+      },
+      {
+        "service": "paperback",
+        "label": "Paperback",
+        "url": "https://www.amazon.com/dp/9798280824331"
+      }
+    ]
   },
   {
     "title": "Harmonic Rebirth",
-    "subtitle": "Book Six",
+    "subtitle": "Book Six in the Memoria Astra Cycle",
+    "package": "06",
     "volume": 6,
     "volume_label": "Book VI",
-    "status": "Sixth volume",
-    "image": "harmonic.jpg",
+    "series_type": "main",
+    "status": "Main sequence",
+    "image": "books/06-harmonic-rebirth.jpg",
     "slug": "harmonic-rebirth",
-    "buy_url": "https://www.amazon.com/dp/9798281503518",
-    "signal": "What survives must learn to sing again.",
-    "description": "After ruin and revelation, the cycle turns toward renewal as broken histories are tuned into an impossible future.",
-    "tags": ["Renewal", "Resonance", "Future"]
+    "package_slug": "06-harmonic-rebirth",
+    "ebook_price": "$3.99",
+    "paperback_price": "$14.99",
+    "hardcover_price": "$22.99",
+    "page_count": 327,
+    "identifier": "urn:isbn:9798281503518",
+    "signal": "After collapse, the newborn cosmos learns to sing again.",
+    "description": "Before stars learned to shine, before worlds dared to breathe, there was only the endless Spiral and the sacred silence of becoming. In Harmonic Rebirth, life stirs anew from the ashes of a fallen cosmos as Wells of memory, Looms of breath, and sacred seeds of dreaming shape a newborn universe heavy with futures still sleeping.",
+    "tags": [
+      "Rebirth",
+      "Cosmology",
+      "Wells"
+    ],
+    "links": [
+      {
+        "service": "apple",
+        "label": "Apple Books",
+        "url": "https://books.apple.com/us/search?term=Harmonic%20Rebirth%20Alinari%20Campbell"
+      },
+      {
+        "service": "google",
+        "label": "Google Play",
+        "url": "https://play.google.com/store/search?q=Harmonic+Rebirth+Alinari+Campbell&c=books"
+      },
+      {
+        "service": "kindle",
+        "label": "Kindle",
+        "url": "https://www.amazon.com/s?k=Harmonic+Rebirth+Alinari+Campbell+Kindle"
+      },
+      {
+        "service": "paperback",
+        "label": "Paperback",
+        "url": "https://www.amazon.com/dp/9798281503518"
+      },
+      {
+        "service": "hardcover",
+        "label": "Hardcover",
+        "url": "https://www.amazon.com/dp/9798197416933"
+      }
+    ]
   },
   {
     "title": "Foundations of Flame",
-    "subtitle": "Book Seven",
+    "subtitle": "Book Seven in the Memoria Astra Cycle",
+    "package": "07",
     "volume": 7,
     "volume_label": "Book VII",
-    "status": "Seventh volume",
-    "image": "foundations.jpg",
+    "series_type": "main",
+    "status": "Main sequence",
+    "image": "books/07-foundations-of-flame.jpg",
     "slug": "foundations-of-flame",
-    "buy_url": "https://www.amazon.com/dp/9798281667579",
-    "signal": "The final foundation is made of fire.",
-    "description": "The seventh volume gathers the scattered embers of the saga into a fierce reckoning with creation, memory, and the cost of beginning again.",
-    "tags": ["Finale", "Creation", "Rebirth"]
+    "package_slug": "07-foundations-of-flame",
+    "ebook_price": "$1.99",
+    "paperback_price": "$7.99",
+    "hardcover_price": null,
+    "page_count": 120,
+    "identifier": "urn:isbn:9798281667579",
+    "signal": "The Ashforged rise where memory burns hottest.",
+    "description": "In a dying Spiral, where stars weep and memory flickers like ash, the Ashforged rise. Kaelen Vey and the survivors of Orun Prime have bound the Wells and reignited the fire of hope, but survival demands more than endurance. Across Silent Rivers of Wellsbreath and Veil-ravaged space, darker forces stir and the Wells sing warnings of wars yet to come.",
+    "tags": [
+      "Ashforged",
+      "Flame",
+      "Covenant"
+    ],
+    "links": [
+      {
+        "service": "apple",
+        "label": "Apple Books",
+        "url": "https://books.apple.com/us/search?term=Foundations%20of%20Flame%20Alinari%20Campbell"
+      },
+      {
+        "service": "google",
+        "label": "Google Play",
+        "url": "https://play.google.com/store/search?q=Foundations+of+Flame+Alinari+Campbell&c=books"
+      },
+      {
+        "service": "kindle",
+        "label": "Kindle",
+        "url": "https://www.amazon.com/s?k=Foundations+of+Flame+Alinari+Campbell+Kindle"
+      },
+      {
+        "service": "paperback",
+        "label": "Paperback",
+        "url": "https://www.amazon.com/dp/9798281667579"
+      }
+    ]
+  },
+  {
+    "title": "Inheritance of Song",
+    "subtitle": "Book Eight in the Memoria Astra Cycle",
+    "package": "08",
+    "volume": 8,
+    "volume_label": "Book VIII",
+    "series_type": "main",
+    "status": "Main sequence",
+    "image": "books/08-inheritance-of-song.jpg",
+    "slug": "inheritance-of-song",
+    "package_slug": "08-inheritance-of-song",
+    "ebook_price": "$0.99",
+    "paperback_price": "$5.99",
+    "hardcover_price": null,
+    "page_count": 52,
+    "identifier": "urn:uuid:memoria-astra-08-inheritance-of-song-draft",
+    "signal": "A civilization of roots and gates learns that travel requires consent.",
+    "description": "In the fertile heart of the Second Spiral, a civilization of root, memory, and resonance learns that travel is not conquest, but consent. As the first Songgates awaken and an ancient hunger listens from the dark between stars, one young Resonant must decide whether song is a bridge, a weapon, or the most dangerous inheritance of all.",
+    "tags": [
+      "Resonants",
+      "Songgates",
+      "Consent"
+    ],
+    "links": [
+      {
+        "service": "apple",
+        "label": "Apple Books",
+        "url": "https://books.apple.com/us/search?term=Inheritance%20of%20Song%20Alinari%20Campbell"
+      },
+      {
+        "service": "google",
+        "label": "Google Play",
+        "url": "https://play.google.com/store/books/details?id=GGKEY%3AU06Z1PYBT8H"
+      },
+      {
+        "service": "kindle",
+        "label": "Kindle",
+        "url": "https://www.amazon.com/s?k=Inheritance+of+Song+Alinari+Campbell+Kindle"
+      },
+      {
+        "service": "paperback",
+        "label": "Paperback",
+        "url": "https://www.amazon.com/dp/9798197426697"
+      }
+    ]
+  },
+  {
+    "title": "The Silent Accord",
+    "subtitle": "Book Nine in the Memoria Astra Cycle",
+    "package": "09",
+    "volume": 9,
+    "volume_label": "Book IX",
+    "series_type": "main",
+    "status": "Main sequence",
+    "image": "books/09-the-silent-accord.jpg",
+    "slug": "the-silent-accord",
+    "package_slug": "09-the-silent-accord",
+    "ebook_price": "$0.99",
+    "paperback_price": "$5.99",
+    "hardcover_price": null,
+    "page_count": 53,
+    "identifier": "urn:uuid:memoria-astra-09-the-silent-accord-draft",
+    "signal": "Flame and song meet first through restraint.",
+    "description": "Across the Silent Rivers, flame and song know one another only by restraint. As Ashforged scouts and Resonant gatekeepers begin to hear a third hunger hiding in the interval between them, both civilizations must decide whether silence is wisdom, fear, or the first fragile language of peace.",
+    "tags": [
+      "First contact",
+      "Silence",
+      "Accord"
+    ],
+    "links": [
+      {
+        "service": "apple",
+        "label": "Apple Books",
+        "url": "https://books.apple.com/us/search?term=The%20Silent%20Accord%20Alinari%20Campbell"
+      },
+      {
+        "service": "google",
+        "label": "Google Play",
+        "url": "https://play.google.com/store/books/details?id=GGKEY%3AHN9YSCWDB96"
+      },
+      {
+        "service": "kindle",
+        "label": "Kindle",
+        "url": "https://www.amazon.com/s?k=The+Silent+Accord+Alinari+Campbell+Kindle"
+      },
+      {
+        "service": "paperback",
+        "label": "Paperback",
+        "url": "https://www.amazon.com/s?k=The+Silent+Accord+Alinari+Campbell+paperback"
+      }
+    ]
+  },
+  {
+    "title": "Starforged Thrones",
+    "subtitle": "Book Ten in the Memoria Astra Cycle",
+    "package": "10",
+    "volume": 10,
+    "volume_label": "Book X",
+    "series_type": "main",
+    "status": "Main sequence",
+    "image": "books/10-starforged-thrones.jpg",
+    "slug": "starforged-thrones",
+    "package_slug": "10-starforged-thrones",
+    "ebook_price": "$0.99",
+    "paperback_price": "$6.99",
+    "hardcover_price": null,
+    "page_count": 65,
+    "identifier": "urn:uuid:memoria-astra-10-starforged-thrones-draft",
+    "signal": "Power takes the shape of thrones forged inside stars.",
+    "description": "The Ashforged raise thrones from starfire to govern a growing empire of forge-worlds, while the Resonants answer their expansion with deeper songs of refusal. Rumor, ambition, and a listening dark turn restraint into a contest for the future of the Second Spiral.",
+    "tags": [
+      "Empire",
+      "Starfire",
+      "Ambition"
+    ],
+    "links": [
+      {
+        "service": "apple",
+        "label": "Apple Books",
+        "url": "https://books.apple.com/us/search?term=Starforged%20Thrones%20Alinari%20Campbell"
+      },
+      {
+        "service": "google",
+        "label": "Google Play",
+        "url": "https://play.google.com/store/books/details?id=GGKEY%3A9XBRBTPZ7SZ"
+      },
+      {
+        "service": "kindle",
+        "label": "Kindle",
+        "url": "https://www.amazon.com/s?k=Starforged+Thrones+Alinari+Campbell+Kindle"
+      },
+      {
+        "service": "paperback",
+        "label": "Paperback",
+        "url": "https://www.amazon.com/s?k=Starforged+Thrones+Alinari+Campbell+paperback"
+      }
+    ]
+  },
+  {
+    "title": "Lament of the Shattered Gate",
+    "subtitle": "Book Eleven in the Memoria Astra Cycle",
+    "package": "11",
+    "volume": 11,
+    "volume_label": "Book XI",
+    "series_type": "main",
+    "status": "Main sequence",
+    "image": "books/11-lament-of-the-shattered-gate.jpg",
+    "slug": "lament-of-the-shattered-gate",
+    "package_slug": "11-lament-of-the-shattered-gate",
+    "ebook_price": "$0.99",
+    "paperback_price": "$5.99",
+    "hardcover_price": null,
+    "page_count": 58,
+    "identifier": "urn:uuid:memoria-astra-11-lament-of-the-shattered-gate-draft",
+    "signal": "First contact becomes rupture before it can become trust.",
+    "description": "First contact arrives not as triumph, but as rupture. When a Starforged fleet and a Resonant Songgate touch the same wounded current, the old hunger twists welcome into catastrophe, and both peoples must sing a lament over worlds broken by fear.",
+    "tags": [
+      "Catastrophe",
+      "Gate",
+      "Lament"
+    ],
+    "links": [
+      {
+        "service": "apple",
+        "label": "Apple Books",
+        "url": "https://books.apple.com/us/search?term=Lament%20of%20the%20Shattered%20Gate%20Alinari%20Campbell"
+      },
+      {
+        "service": "google",
+        "label": "Google Play",
+        "url": "https://play.google.com/store/books/details?id=GGKEY%3APDLCU7TZTS6"
+      },
+      {
+        "service": "kindle",
+        "label": "Kindle",
+        "url": "https://www.amazon.com/s?k=Lament+of+the+Shattered+Gate+Alinari+Campbell+Kindle"
+      },
+      {
+        "service": "paperback",
+        "label": "Paperback",
+        "url": "https://www.amazon.com/s?k=Lament+of+the+Shattered+Gate+Alinari+Campbell+paperback"
+      }
+    ]
+  },
+  {
+    "title": "Resonance of Ash and Dream",
+    "subtitle": "Book Twelve in the Memoria Astra Cycle",
+    "package": "12",
+    "volume": 12,
+    "volume_label": "Book XII",
+    "series_type": "main",
+    "status": "Main sequence",
+    "image": "books/12-resonance-of-ash-and-dream.jpg",
+    "slug": "resonance-of-ash-and-dream",
+    "package_slug": "12-resonance-of-ash-and-dream",
+    "ebook_price": "$0.99",
+    "paperback_price": "$5.99",
+    "hardcover_price": null,
+    "page_count": 52,
+    "identifier": "urn:uuid:memoria-astra-12-resonance-of-ash-and-dream-draft",
+    "signal": "Survivors build a sanctuary from grief, engineering, and dream.",
+    "description": "In the aftermath of the shattered gate, survivors meet first in dream and grief. Ashforged engineers and Resonant healers begin to learn one another without conquest, building a sanctuary where memory can ache without becoming a weapon.",
+    "tags": [
+      "Healing",
+      "Dream",
+      "Sanctuary"
+    ],
+    "links": [
+      {
+        "service": "apple",
+        "label": "Apple Books",
+        "url": "https://books.apple.com/us/search?term=Resonance%20of%20Ash%20and%20Dream%20Alinari%20Campbell"
+      },
+      {
+        "service": "google",
+        "label": "Google Play",
+        "url": "https://play.google.com/store/books/details?id=GGKEY%3A5DLQLKQPB53"
+      },
+      {
+        "service": "kindle",
+        "label": "Kindle",
+        "url": "https://www.amazon.com/s?k=Resonance+of+Ash+and+Dream+Alinari+Campbell+Kindle"
+      },
+      {
+        "service": "paperback",
+        "label": "Paperback",
+        "url": "https://www.amazon.com/s?k=Resonance+of+Ash+and+Dream+Alinari+Campbell+paperback"
+      }
+    ]
+  },
+  {
+    "title": "The Gathering Spiral",
+    "subtitle": "Book Thirteen in the Memoria Astra Cycle",
+    "package": "13",
+    "volume": 13,
+    "volume_label": "Book XIII",
+    "series_type": "main",
+    "status": "Main sequence",
+    "image": "books/13-the-gathering-spiral.jpg",
+    "slug": "the-gathering-spiral",
+    "package_slug": "13-the-gathering-spiral",
+    "ebook_price": "$0.99",
+    "paperback_price": "$6.99",
+    "hardcover_price": null,
+    "page_count": 62,
+    "identifier": "urn:uuid:memoria-astra-13-the-gathering-spiral-draft",
+    "signal": "Rebels and keepers answer a call older than empire.",
+    "description": "Rebels, visionaries, and wounded keepers answer a call older than either empire. As the Ashforged and Resonants gather at the edge of the Loomheart, they discover that healing the Spiral will require more than alliance; it will require a new form of memory.",
+    "tags": [
+      "Alliance",
+      "Rebellion",
+      "Loomheart"
+    ],
+    "links": [
+      {
+        "service": "apple",
+        "label": "Apple Books",
+        "url": "https://books.apple.com/us/search?term=The%20Gathering%20Spiral%20Alinari%20Campbell"
+      },
+      {
+        "service": "google",
+        "label": "Google Play",
+        "url": "https://play.google.com/store/books/details?id=GGKEY%3A1DZWFP2K7SZ"
+      },
+      {
+        "service": "kindle",
+        "label": "Kindle",
+        "url": "https://www.amazon.com/s?k=The+Gathering+Spiral+Alinari+Campbell+Kindle"
+      },
+      {
+        "service": "paperback",
+        "label": "Paperback",
+        "url": "https://www.amazon.com/s?k=The+Gathering+Spiral+Alinari+Campbell+paperback"
+      }
+    ]
+  },
+  {
+    "title": "The Weeping Crown",
+    "subtitle": "Book Fourteen in the Memoria Astra Cycle",
+    "package": "14",
+    "volume": 14,
+    "volume_label": "Book XIV",
+    "series_type": "main",
+    "status": "Main sequence",
+    "image": "books/14-the-weeping-crown.jpg",
+    "slug": "the-weeping-crown",
+    "package_slug": "14-the-weeping-crown",
+    "ebook_price": "$0.99",
+    "paperback_price": "$6.99",
+    "hardcover_price": null,
+    "page_count": 63,
+    "identifier": "urn:uuid:memoria-astra-14-the-weeping-crown-draft",
+    "signal": "The enemy wears mercy as a crown and calls it order.",
+    "description": "The final enemy offers both civilizations the same temptation: rule the Spiral before grief can unmake it. Beneath a crown that remembers every sorrow, flame and song must choose whether power will be inherited, surrendered, or transformed.",
+    "tags": [
+      "Power",
+      "Grief",
+      "Final enemy"
+    ],
+    "links": [
+      {
+        "service": "apple",
+        "label": "Apple Books",
+        "url": "https://books.apple.com/us/search?term=The%20Weeping%20Crown%20Alinari%20Campbell"
+      },
+      {
+        "service": "google",
+        "label": "Google Play",
+        "url": "https://play.google.com/store/books/details?id=GGKEY%3AXXAXJXN4ZDH"
+      },
+      {
+        "service": "kindle",
+        "label": "Kindle",
+        "url": "https://www.amazon.com/s?k=The+Weeping+Crown+Alinari+Campbell+Kindle"
+      },
+      {
+        "service": "paperback",
+        "label": "Paperback",
+        "url": "https://www.amazon.com/s?k=The+Weeping+Crown+Alinari+Campbell+paperback"
+      }
+    ]
+  },
+  {
+    "title": "The Final Loom",
+    "subtitle": "Book Fifteen in the Memoria Astra Cycle",
+    "package": "15",
+    "volume": 15,
+    "volume_label": "Book XV",
+    "series_type": "main",
+    "status": "Main sequence",
+    "image": "books/15-the-final-loom.jpg",
+    "slug": "the-final-loom",
+    "package_slug": "15-the-final-loom",
+    "ebook_price": "$0.99",
+    "paperback_price": "$5.99",
+    "hardcover_price": null,
+    "page_count": 51,
+    "identifier": "urn:uuid:memoria-astra-15-the-final-loom-draft",
+    "signal": "Every ending gathers into one brave act of beginning.",
+    "description": "At the end of the Second Spiral, memory, breath, flame, and dream converge within the Loomheart. What survives will not be empire or gate, throne or song alone, but a creation brave enough to remember every ending and still begin.",
+    "tags": [
+      "Finale",
+      "Creation",
+      "Memory"
+    ],
+    "links": [
+      {
+        "service": "apple",
+        "label": "Apple Books",
+        "url": "https://books.apple.com/us/search?term=The%20Final%20Loom%20Alinari%20Campbell"
+      },
+      {
+        "service": "google",
+        "label": "Google Play",
+        "url": "https://play.google.com/store/books/details?id=GGKEY%3A25HXYCSR6N6"
+      },
+      {
+        "service": "kindle",
+        "label": "Kindle",
+        "url": "https://www.amazon.com/s?k=The+Final+Loom+Alinari+Campbell+Kindle"
+      },
+      {
+        "service": "paperback",
+        "label": "Paperback",
+        "url": "https://www.amazon.com/s?k=The+Final+Loom+Alinari+Campbell+paperback"
+      }
+    ]
+  },
+  {
+    "title": "The Second Spiral",
+    "subtitle": "Collection Novel",
+    "package": "16",
+    "volume": null,
+    "volume_label": "Collection Novel",
+    "series_type": "collection",
+    "status": "Arc collection",
+    "image": "books/16-the-second-spiral.jpg",
+    "slug": "the-second-spiral",
+    "package_slug": "16-the-second-spiral",
+    "ebook_price": "$3.99",
+    "paperback_price": "$17.99",
+    "hardcover_price": "$24.99",
+    "page_count": 471,
+    "identifier": "urn:uuid:memoria-astra-16-the-second-spiral-draft",
+    "signal": "Flame and song cross the Silent Rivers to decide a cosmos.",
+    "description": "After the First Spiral gives way to a universe of breath, memory, flame, and song, two civilizations rise from the same sacred cradle and mistake distance for destiny. The Ashforged carry survival in engines and thrones; the Resonants carry consent in roots and gates. When an old hunger learns to wear mercy's face, flame and song must cross the Silent Rivers, survive the Shattered Gate, and choose whether the Second Spiral will become another empire of grief or a living cosmos brave enough to begin again.",
+    "tags": [
+      "Collection",
+      "Flame and song",
+      "Cosmic arc"
+    ],
+    "links": [
+      {
+        "service": "apple",
+        "label": "Apple Books",
+        "url": "https://books.apple.com/us/search?term=The%20Second%20Spiral%20Alinari%20Campbell"
+      },
+      {
+        "service": "google",
+        "label": "Google Play",
+        "url": "https://play.google.com/store/books/details?id=GGKEY%3AWS9UW4FE0HP"
+      },
+      {
+        "service": "kindle",
+        "label": "Kindle",
+        "url": "https://www.amazon.com/s?k=The+Second+Spiral+Alinari+Campbell+Kindle"
+      },
+      {
+        "service": "paperback",
+        "label": "Paperback",
+        "url": "https://www.amazon.com/s?k=The+Second+Spiral+Alinari+Campbell+paperback"
+      },
+      {
+        "service": "hardcover",
+        "label": "Hardcover",
+        "url": "https://www.amazon.com/s?k=The+Second+Spiral+Alinari+Campbell+hardcover"
+      }
+    ]
   }
 ]

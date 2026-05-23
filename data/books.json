@@ -26,27 +26,27 @@
       {
         "service": "apple",
         "label": "Apple Books",
-        "url": "https://books.apple.com/us/search?term=The%20First%20Spiral%20Alinari%20Campbell"
+        "url": "https://books.apple.com/us/book/the-first-spiral/id6770310296"
       },
       {
         "service": "google",
-        "label": "Google Play",
-        "url": "https://play.google.com/store/books/details?id=GGKEY%3AA02YGJX45RY"
+        "label": "Google Play Books",
+        "url": "https://play.google.com/store/books/details/Alinari_Campbell_The_First_Spiral?id=swvaEQAAQBAJ"
       },
       {
         "service": "kindle",
         "label": "Kindle",
-        "url": "https://www.amazon.com/s?k=The+First+Spiral+Alinari+Campbell+Kindle"
+        "url": "https://www.amazon.com/dp/B0H25FB2DC"
       },
       {
         "service": "paperback",
         "label": "Paperback",
-        "url": "https://www.amazon.com/s?k=The+First+Spiral+Alinari+Campbell+paperback"
+        "url": "https://www.amazon.com/dp/B0H26XNSTB"
       },
       {
         "service": "hardcover",
         "label": "Hardcover",
-        "url": "https://www.amazon.com/dp/9798197379412"
+        "url": "https://www.amazon.com/dp/B0H26BR5W1"
       }
     ]
   },
@@ -81,18 +81,18 @@
       },
       {
         "service": "google",
-        "label": "Google Play",
-        "url": "https://play.google.com/store/search?q=Terra+in+the+Mists+Alinari+Campbell&c=books"
+        "label": "Google Play Books",
+        "url": "https://play.google.com/store/books/details/Alinari_Campbell_Terra_in_the_Mists?id=NQxYEQAAQBAJ"
       },
       {
         "service": "kindle",
         "label": "Kindle",
-        "url": "https://www.amazon.com/s?k=Terra+in+the+Mists+Alinari+Campbell+Kindle"
+        "url": "https://www.amazon.com/dp/B0F5T736LB"
       },
       {
         "service": "paperback",
         "label": "Paperback",
-        "url": "https://www.amazon.com/dp/9798280601932"
+        "url": "https://www.amazon.com/dp/B0F5VDVN2G"
       }
     ]
   },
@@ -123,22 +123,22 @@
       {
         "service": "apple",
         "label": "Apple Books",
-        "url": "https://books.apple.com/us/search?term=Before%20the%20Mists%20Alinari%20Campbell"
+        "url": "https://books.apple.com/us/book/before-the-mists/id6770309629"
       },
       {
         "service": "google",
-        "label": "Google Play",
-        "url": "https://play.google.com/store/search?q=Before+the+Mists+Alinari+Campbell&c=books"
+        "label": "Google Play Books",
+        "url": "https://play.google.com/store/books/details/Alinari_Campbell_Before_the_Mists?id=x5ZYEQAAQBAJ"
       },
       {
         "service": "kindle",
         "label": "Kindle",
-        "url": "https://www.amazon.com/s?k=Before+the+Mists+Alinari+Campbell+Kindle"
+        "url": "https://www.amazon.com/dp/B0F5NMQ83Q"
       },
       {
         "service": "paperback",
         "label": "Paperback",
-        "url": "https://www.amazon.com/dp/9798280619814"
+        "url": "https://www.amazon.com/dp/B0F5P6YJD8"
       }
     ]
   },
@@ -169,22 +169,22 @@
       {
         "service": "apple",
         "label": "Apple Books",
-        "url": "https://books.apple.com/us/search?term=Crimson%20Reliquary%20Alinari%20Campbell"
+        "url": "https://books.apple.com/us/book/crimson-reliquary/id6770309433"
       },
       {
         "service": "google",
-        "label": "Google Play",
-        "url": "https://play.google.com/store/search?q=Crimson+Reliquary+Alinari+Campbell&c=books"
+        "label": "Google Play Books",
+        "url": "https://play.google.com/store/books/details/Alinari_Campbell_Crimson_Reliquary?id=_p1YEQAAQBAJ"
       },
       {
         "service": "kindle",
         "label": "Kindle",
-        "url": "https://www.amazon.com/s?k=Crimson+Reliquary+Alinari+Campbell+Kindle"
+        "url": "https://www.amazon.com/dp/B0F5NRZPN8"
       },
       {
         "service": "paperback",
         "label": "Paperback",
-        "url": "https://www.amazon.com/dp/9798280622265"
+        "url": "https://www.amazon.com/dp/B0F5PGP76N"
       }
     ]
   },
@@ -215,22 +215,22 @@
       {
         "service": "apple",
         "label": "Apple Books",
-        "url": "https://books.apple.com/us/search?term=Children%20of%20the%20Divide%20Alinari%20Campbell"
+        "url": "https://books.apple.com/us/book/children-of-the-divide/id6770309380"
       },
       {
         "service": "google",
-        "label": "Google Play",
-        "url": "https://play.google.com/store/search?q=Children+of+the+Divide+Alinari+Campbell&c=books"
+        "label": "Google Play Books",
+        "url": "https://play.google.com/store/books/details/Alinari_Campbell_Children_of_the_Divide?id=Fp5YEQAAQBAJ"
       },
       {
         "service": "kindle",
         "label": "Kindle",
-        "url": "https://www.amazon.com/s?k=Children+of+the+Divide+Alinari+Campbell+Kindle"
+        "url": "https://www.amazon.com/dp/B0F5PJDJ7P"
       },
       {
         "service": "paperback",
         "label": "Paperback",
-        "url": "https://www.amazon.com/dp/9798280817074"
+        "url": "https://www.amazon.com/dp/B0F5QTXHFD"
       }
     ]
   },
@@ -261,22 +261,22 @@
       {
         "service": "apple",
         "label": "Apple Books",
-        "url": "https://books.apple.com/us/search?term=Echoes%20of%20Lyra%20Alinari%20Campbell"
+        "url": "https://books.apple.com/us/book/echoes-of-lyra/id6770309427"
       },
       {
         "service": "google",
-        "label": "Google Play",
-        "url": "https://play.google.com/store/search?q=Echoes+of+Lyra+Alinari+Campbell&c=books"
+        "label": "Google Play Books",
+        "url": "https://play.google.com/store/books/details/Alinari_Campbell_Echoes_of_Lyra?id=3J5YEQAAQBAJ"
       },
       {
         "service": "kindle",
         "label": "Kindle",
-        "url": "https://www.amazon.com/s?k=Echoes+of+Lyra+Alinari+Campbell+Kindle"
+        "url": "https://www.amazon.com/dp/B0F5PRQ1CF"
       },
       {
         "service": "paperback",
         "label": "Paperback",
-        "url": "https://www.amazon.com/dp/9798280824331"
+        "url": "https://www.amazon.com/dp/B0F5RFLW1L"
       }
     ]
   },
@@ -307,27 +307,27 @@
       {
         "service": "apple",
         "label": "Apple Books",
-        "url": "https://books.apple.com/us/search?term=Harmonic%20Rebirth%20Alinari%20Campbell"
+        "url": "https://books.apple.com/us/book/harmonic-rebirth/id6770309675"
       },
       {
         "service": "google",
-        "label": "Google Play",
-        "url": "https://play.google.com/store/search?q=Harmonic+Rebirth+Alinari+Campbell&c=books"
+        "label": "Google Play Books",
+        "url": "https://play.google.com/store/books/details/Alinari_Campbell_Harmonic_Rebirth?id=ihDaEQAAQBAJ"
       },
       {
         "service": "kindle",
         "label": "Kindle",
-        "url": "https://www.amazon.com/s?k=Harmonic+Rebirth+Alinari+Campbell+Kindle"
+        "url": "https://www.amazon.com/dp/B0DRYGGN63"
       },
       {
         "service": "paperback",
         "label": "Paperback",
-        "url": "https://www.amazon.com/dp/9798281503518"
+        "url": "https://www.amazon.com/dp/B0F6L9KKB9"
       },
       {
         "service": "hardcover",
         "label": "Hardcover",
-        "url": "https://www.amazon.com/dp/9798197416933"
+        "url": "https://www.amazon.com/dp/B0H26F7MVT"
       }
     ]
   },
@@ -358,22 +358,22 @@
       {
         "service": "apple",
         "label": "Apple Books",
-        "url": "https://books.apple.com/us/search?term=Foundations%20of%20Flame%20Alinari%20Campbell"
+        "url": "https://books.apple.com/us/book/foundations-of-flame/id6770309635"
       },
       {
         "service": "google",
-        "label": "Google Play",
-        "url": "https://play.google.com/store/search?q=Foundations+of+Flame+Alinari+Campbell&c=books"
+        "label": "Google Play Books",
+        "url": "https://play.google.com/store/books/details/Alinari_Campbell_Foundations_of_Flame?id=thDaEQAAQBAJ"
       },
       {
         "service": "kindle",
         "label": "Kindle",
-        "url": "https://www.amazon.com/s?k=Foundations+of+Flame+Alinari+Campbell+Kindle"
+        "url": "https://www.amazon.com/dp/B0F6NV2MR7"
       },
       {
         "service": "paperback",
         "label": "Paperback",
-        "url": "https://www.amazon.com/dp/9798281667579"
+        "url": "https://www.amazon.com/dp/B0F6T1WFJP"
       }
     ]
   },
@@ -404,22 +404,22 @@
       {
         "service": "apple",
         "label": "Apple Books",
-        "url": "https://books.apple.com/us/search?term=Inheritance%20of%20Song%20Alinari%20Campbell"
+        "url": "https://books.apple.com/us/book/inheritance-of-song/id6770310181"
       },
       {
         "service": "google",
-        "label": "Google Play",
-        "url": "https://play.google.com/store/books/details?id=GGKEY%3AU06Z1PYBT8H"
+        "label": "Google Play Books",
+        "url": "https://play.google.com/store/books/details/Alinari_Campbell_Inheritance_of_Song?id=2BDaEQAAQBAJ"
       },
       {
         "service": "kindle",
         "label": "Kindle",
-        "url": "https://www.amazon.com/s?k=Inheritance+of+Song+Alinari+Campbell+Kindle"
+        "url": "https://www.amazon.com/dp/B0H256XC3R"
       },
       {
         "service": "paperback",
         "label": "Paperback",
-        "url": "https://www.amazon.com/dp/9798197426697"
+        "url": "https://www.amazon.com/dp/B0H26RCZFB"
       }
     ]
   },
@@ -450,22 +450,22 @@
       {
         "service": "apple",
         "label": "Apple Books",
-        "url": "https://books.apple.com/us/search?term=The%20Silent%20Accord%20Alinari%20Campbell"
+        "url": "https://books.apple.com/us/book/the-silent-accord/id6770441591"
       },
       {
         "service": "google",
-        "label": "Google Play",
-        "url": "https://play.google.com/store/books/details?id=GGKEY%3AHN9YSCWDB96"
+        "label": "Google Play Books",
+        "url": "https://play.google.com/store/books/details/Alinari_Campbell_The_Silent_Accord?id=sSXaEQAAQBAJ"
       },
       {
         "service": "kindle",
         "label": "Kindle",
-        "url": "https://www.amazon.com/s?k=The+Silent+Accord+Alinari+Campbell+Kindle"
+        "url": "https://www.amazon.com/dp/B0H279DM1L"
       },
       {
         "service": "paperback",
         "label": "Paperback",
-        "url": "https://www.amazon.com/s?k=The+Silent+Accord+Alinari+Campbell+paperback"
+        "url": "https://www.amazon.com/dp/B0H29VQ17C"
       }
     ]
   },
@@ -496,22 +496,22 @@
       {
         "service": "apple",
         "label": "Apple Books",
-        "url": "https://books.apple.com/us/search?term=Starforged%20Thrones%20Alinari%20Campbell"
+        "url": "https://books.apple.com/us/book/starforged-thrones/id6770441706"
       },
       {
         "service": "google",
-        "label": "Google Play",
-        "url": "https://play.google.com/store/books/details?id=GGKEY%3A9XBRBTPZ7SZ"
+        "label": "Google Play Books",
+        "url": "https://play.google.com/store/books/details/Alinari_Campbell_Starforged_Thrones?id=pSXaEQAAQBAJ"
       },
       {
         "service": "kindle",
         "label": "Kindle",
-        "url": "https://www.amazon.com/s?k=Starforged+Thrones+Alinari+Campbell+Kindle"
+        "url": "https://www.amazon.com/dp/B0H27ZFTR3"
       },
       {
         "service": "paperback",
         "label": "Paperback",
-        "url": "https://www.amazon.com/s?k=Starforged+Thrones+Alinari+Campbell+paperback"
+        "url": "https://www.amazon.com/dp/B0H29XS776"
       }
     ]
   },
@@ -542,22 +542,22 @@
       {
         "service": "apple",
         "label": "Apple Books",
-        "url": "https://books.apple.com/us/search?term=Lament%20of%20the%20Shattered%20Gate%20Alinari%20Campbell"
+        "url": "https://books.apple.com/us/book/lament-of-the-shattered-gate/id6770441561"
       },
       {
         "service": "google",
-        "label": "Google Play",
-        "url": "https://play.google.com/store/books/details?id=GGKEY%3APDLCU7TZTS6"
+        "label": "Google Play Books",
+        "url": "https://play.google.com/store/books/details/Alinari_Campbell_Lament_of_the_Shattered_Gate?id=myXaEQAAQBAJ"
       },
       {
         "service": "kindle",
         "label": "Kindle",
-        "url": "https://www.amazon.com/s?k=Lament+of+the+Shattered+Gate+Alinari+Campbell+Kindle"
+        "url": "https://www.amazon.com/dp/B0H28532V6"
       },
       {
         "service": "paperback",
         "label": "Paperback",
-        "url": "https://www.amazon.com/s?k=Lament+of+the+Shattered+Gate+Alinari+Campbell+paperback"
+        "url": "https://www.amazon.com/dp/B0H2B5BMPR"
       }
     ]
   },
@@ -588,22 +588,22 @@
       {
         "service": "apple",
         "label": "Apple Books",
-        "url": "https://books.apple.com/us/search?term=Resonance%20of%20Ash%20and%20Dream%20Alinari%20Campbell"
+        "url": "https://books.apple.com/us/book/resonance-of-ash-and-dream/id6770441822"
       },
       {
         "service": "google",
-        "label": "Google Play",
-        "url": "https://play.google.com/store/books/details?id=GGKEY%3A5DLQLKQPB53"
+        "label": "Google Play Books",
+        "url": "https://play.google.com/store/books/details/Alinari_Campbell_Resonance_of_Ash_and_Dream?id=nyXaEQAAQBAJ"
       },
       {
         "service": "kindle",
         "label": "Kindle",
-        "url": "https://www.amazon.com/s?k=Resonance+of+Ash+and+Dream+Alinari+Campbell+Kindle"
+        "url": "https://www.amazon.com/dp/B0H279TQ6D"
       },
       {
         "service": "paperback",
         "label": "Paperback",
-        "url": "https://www.amazon.com/s?k=Resonance+of+Ash+and+Dream+Alinari+Campbell+paperback"
+        "url": "https://www.amazon.com/dp/B0H29Q6DZ4"
       }
     ]
   },
@@ -634,22 +634,22 @@
       {
         "service": "apple",
         "label": "Apple Books",
-        "url": "https://books.apple.com/us/search?term=The%20Gathering%20Spiral%20Alinari%20Campbell"
+        "url": "https://books.apple.com/us/book/the-gathering-spiral/id6770441620"
       },
       {
         "service": "google",
-        "label": "Google Play",
-        "url": "https://play.google.com/store/books/details?id=GGKEY%3A1DZWFP2K7SZ"
+        "label": "Google Play Books",
+        "url": "https://play.google.com/store/books/details/Alinari_Campbell_The_Gathering_Spiral?id=tSXaEQAAQBAJ"
       },
       {
         "service": "kindle",
         "label": "Kindle",
-        "url": "https://www.amazon.com/s?k=The+Gathering+Spiral+Alinari+Campbell+Kindle"
+        "url": "https://www.amazon.com/dp/B0H27HFNB2"
       },
       {
         "service": "paperback",
         "label": "Paperback",
-        "url": "https://www.amazon.com/s?k=The+Gathering+Spiral+Alinari+Campbell+paperback"
+        "url": "https://www.amazon.com/dp/B0H2B16M9H"
       }
     ]
   },
@@ -680,22 +680,22 @@
       {
         "service": "apple",
         "label": "Apple Books",
-        "url": "https://books.apple.com/us/search?term=The%20Weeping%20Crown%20Alinari%20Campbell"
+        "url": "https://books.apple.com/us/book/the-weeping-crown/id6770441649"
       },
       {
         "service": "google",
-        "label": "Google Play",
-        "url": "https://play.google.com/store/books/details?id=GGKEY%3AXXAXJXN4ZDH"
+        "label": "Google Play Books",
+        "url": "https://play.google.com/store/books/details/Alinari_Campbell_The_Weeping_Crown?id=ryXaEQAAQBAJ"
       },
       {
         "service": "kindle",
         "label": "Kindle",
-        "url": "https://www.amazon.com/s?k=The+Weeping+Crown+Alinari+Campbell+Kindle"
+        "url": "https://www.amazon.com/dp/B0H28FDQ77"
       },
       {
         "service": "paperback",
         "label": "Paperback",
-        "url": "https://www.amazon.com/s?k=The+Weeping+Crown+Alinari+Campbell+paperback"
+        "url": "https://www.amazon.com/dp/B0H2B1JTT1"
       }
     ]
   },
@@ -726,22 +726,22 @@
       {
         "service": "apple",
         "label": "Apple Books",
-        "url": "https://books.apple.com/us/search?term=The%20Final%20Loom%20Alinari%20Campbell"
+        "url": "https://books.apple.com/us/book/the-final-loom/id6770441625"
       },
       {
         "service": "google",
-        "label": "Google Play",
-        "url": "https://play.google.com/store/books/details?id=GGKEY%3A25HXYCSR6N6"
+        "label": "Google Play Books",
+        "url": "https://play.google.com/store/books/details/Alinari_Campbell_The_Final_Loom?id=syXaEQAAQBAJ"
       },
       {
         "service": "kindle",
         "label": "Kindle",
-        "url": "https://www.amazon.com/s?k=The+Final+Loom+Alinari+Campbell+Kindle"
+        "url": "https://www.amazon.com/dp/B0H28G8C1P"
       },
       {
         "service": "paperback",
         "label": "Paperback",
-        "url": "https://www.amazon.com/s?k=The+Final+Loom+Alinari+Campbell+paperback"
+        "url": "https://www.amazon.com/dp/B0H2B13WGW"
       }
     ]
   },
@@ -772,27 +772,27 @@
       {
         "service": "apple",
         "label": "Apple Books",
-        "url": "https://books.apple.com/us/search?term=The%20Second%20Spiral%20Alinari%20Campbell"
+        "url": "https://books.apple.com/us/book/the-second-spiral/id6770441765"
       },
       {
         "service": "google",
-        "label": "Google Play",
-        "url": "https://play.google.com/store/books/details?id=GGKEY%3AWS9UW4FE0HP"
+        "label": "Google Play Books",
+        "url": "https://play.google.com/store/books/details/Alinari_Campbell_The_Second_Spiral?id=tCXaEQAAQBAJ"
       },
       {
         "service": "kindle",
         "label": "Kindle",
-        "url": "https://www.amazon.com/s?k=The+Second+Spiral+Alinari+Campbell+Kindle"
+        "url": "https://www.amazon.com/dp/B0H27LMD6W"
       },
       {
         "service": "paperback",
         "label": "Paperback",
-        "url": "https://www.amazon.com/s?k=The+Second+Spiral+Alinari+Campbell+paperback"
+        "url": "https://www.amazon.com/dp/B0H2B5683L"
       },
       {
         "service": "hardcover",
         "label": "Hardcover",
-        "url": "https://www.amazon.com/s?k=The+Second+Spiral+Alinari+Campbell+hardcover"
+        "url": "https://www.amazon.com/dp/B0H2B58PVH"
       }
     ]
   }

@@ -6,7 +6,7 @@ Official website for the Memoria Astra book cycle.
 
 - `index.php`, `books.php`, `book.php`, `author.php`, `contact.php`, and `404.php` are the public page entrypoints.
 - `includes/` contains shared PHP helpers, header, and footer templates.
-- `data/books.json` stores book metadata, Amazon links, tags, and descriptions.
+- `data/books.json` stores book metadata, retailer links, tags, and descriptions.
 - `assets/` contains styles, browser behavior, cover art, and optimized image derivatives.
 - `Dockerfile` defines the production PHP/Apache image used by DigitalOcean App Platform.
 - `.do/app.yaml` documents the current DigitalOcean App Platform spec.
